@@ -25,6 +25,39 @@ public class DynamicArray<T> implements StrukturData<T> {
         return (T) elements[position];
     }
 
+    @Override
+    public T remove(int position) {
+        checkIndex(position);
+        T removedElement = (T) elements[position];
+        int numMoved = size - position - 1;
+        if (numMoved > 0) {
+            System.arraycopy(elements, position + 1, elements, position, numMoved);
+        }
+        elements[--size] = null;
+        validateInvariant();
+        return removedElement;
+    }
+
+    @Override
+    public void clear() {
+        for (int i = 0; i < size; i++) {
+            elements[i] = null;
+        }
+        size = 0;
+        validateInvariant();
+    }
+
+    public void insert(int position, T value) {
+        if (position < 0 || position > size) {
+            throw new IndexOutOfBoundsException("Posisi indeks tidak valid: " + position);
+        }
+        ensureCapacity();
+        System.arraycopy(elements, position, elements, position + 1, size - position);
+        elements[position] = value;
+        size++;
+        validateInvariant();
+    }
+
     public void set(int position, T value) {
         checkIndex(position);
         elements[position] = value;
