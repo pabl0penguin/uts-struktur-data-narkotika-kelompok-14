@@ -64,10 +64,12 @@ public class DynamicArray<T> implements StrukturData<T> {
         validateInvariant();
     }
 
+    @Override
     public int size() {
         return size;
     }
 
+    @Override
     public boolean isEmpty() {
         return size == 0;
     }
