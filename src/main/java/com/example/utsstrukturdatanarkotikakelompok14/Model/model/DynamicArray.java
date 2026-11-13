@@ -112,4 +112,21 @@ public class DynamicArray<T> implements StrukturData<T> {
         }
     }
 
+    public void validateInvariant() {
+        if (size < 0) {
+            throw new IllegalStateException("Invarian rusak: Ukuran negatif.");
+        }
+        if (elements == null) {
+            throw new IllegalStateException("Invarian rusak: Array null.");
+        }
+        if (size > elements.length) {
+            throw new IllegalStateException("Invarian rusak: Ukuran melebihi kapasitas.");
+        }
+
+        for (int i = size; i < elements.length; i++) {
+            if (elements[i] != null) {
+                throw new IllegalStateException("Invarian rusak: Ada elemen di luar size.");
+            }
+        }
+    }
 }
