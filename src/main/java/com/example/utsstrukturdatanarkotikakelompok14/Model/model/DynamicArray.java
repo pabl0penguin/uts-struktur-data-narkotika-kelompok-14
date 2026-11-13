@@ -72,8 +72,28 @@ public class DynamicArray<T> implements StrukturData<T> {
         return size == 0;
     }
 
+    @Override
+    public boolean contains(T value) {
+        for (int i = 0; i < size; i++) {
+            if (value == null ? elements[i] == null : value.equals(elements[i])) {
+                return true;
+            }
+        }
+        return false;
+    }
+
     public int capacity() {
         return elements.length;
+    }
+
+    @Override
+    public int search(T value) {
+        for (int i = 0; i < size; i++) {
+            if (value == null ? elements[i] == null : value.equals(elements[i])) {
+                return i;
+            }
+        }
+        return -1;
     }
 
     private void ensureCapacity() {
