@@ -1,3 +1,4 @@
+package utsstrukturdatanarkotikakelompok14.Model;
 import java.time.LocalDate;
 
 public class PutusanNarkotika {
