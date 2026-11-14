@@ -99,4 +99,42 @@ public class PutusanService {
         }
         return -1;
     }
+
+    public void eksporCSV(File file, DynamicArray<PutusanNarkotika> data) throws IOException {
+        try (PrintWriter out = new PrintWriter(new BufferedWriter(new FileWriter(file)))) {
+            // Header
+            out.println("\"Case ID\",\"Nomor Perkara\",\"Pengadilan\",\"Tanggal Putusan\"," +
+                    "\"Terdakwa\",\"Jenis Narkotika\",\"Berat (g)\",\"Pasal Dakwaan\"," +
+                    "\"Pasal Terbukti\",\"Tuntutan (Bln)\",\"Vonis (Bln)\",\"Denda (Rp)\"," +
+                    "\"Barang Bukti\",\"Memberatkan\",\"Meringankan\",\"Source Pages\"");
+
+            for (int i = 0; i < data.size(); i++) {
+                PutusanNarkotika p = data.get(i);
+                out.printf("\"%s\",\"%s\",\"%s\",\"%s\",\"%s\",\"%s\",%.2f,\"%s\",\"%s\",%d,%d,%d,\"%s\",\"%s\",\"%s\",\"%s\"%n",
+                        csvEscape(p.getCaseId()),
+                        csvEscape(p.getNomorPerkara()),
+                        csvEscape(p.getPengadilan()),
+                        p.getTanggalPutusan(),
+                        csvEscape(p.getTerdakwaKode()),
+                        csvEscape(p.getJenisNarkotika()),
+                        p.getBeratBarangBuktiGram(),
+                        csvEscape(p.getPasalDakwaan()),
+                        csvEscape(p.getPasalTerbukti()),
+                        p.getTuntutanBulan(),
+                        p.getVonisBulan(),
+                        p.getDendaRupiah(),
+                        csvEscape(p.getBarangBukti()),
+                        csvEscape(p.getKeadaanMemberatkan()),
+                        csvEscape(p.getKeadaanMeringankan()),
+                        csvEscape(p.getSourcePages())
+                );
+            }
+        }
+    }
+
+    private String csvEscape(String value) {
+        if (value == null) return "";
+        return value.replace("\"", "\"\"");
+    }
+
 }
