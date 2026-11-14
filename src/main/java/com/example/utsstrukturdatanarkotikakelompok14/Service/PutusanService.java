@@ -179,6 +179,32 @@ public class PutusanService {
         return -1;
     }
 
+    public DynamicArray<PutusanNarkotika> urutkanBerdasarkanVonis() {
+        PutusanNarkotika[] temp = new PutusanNarkotika[database.size()];
+        for (int i = 0; i < database.size(); i++) {
+            temp[i] = database.get(i);
+        }
+
+        for (int i = 1; i < temp.length; i++) {
+            PutusanNarkotika key = temp[i];
+            int j = i - 1;
+            while (j >= 0 && temp[j].getVonisBulan() > key.getVonisBulan()) {
+                temp[j + 1] = temp[j];
+                j--;
+            }
+            temp[j + 1] = key;
+        }
+
+        DynamicArray<PutusanNarkotika> hasil = new DynamicArray<>();
+        for (PutusanNarkotika p : temp) {
+            hasil.add(p);
+        }
+
+        catatAudit("Urutkan data berdasarkan Vonis (Ascending)");
+        return hasil;
+    }
+
+
     public void eksporCSV(File file, DynamicArray<PutusanNarkotika> data) throws IOException {
         try (PrintWriter out = new PrintWriter(new BufferedWriter(new FileWriter(file)))) {
             // Header
