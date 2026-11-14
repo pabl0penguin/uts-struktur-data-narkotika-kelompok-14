@@ -233,6 +233,15 @@ public class PutusanService {
         return new Agregasi(database.size(), rataVonis, totalDenda);
     }
 
+    public void catatAudit(String aktivitas) {
+        String waktu = LocalDateTime.now().toString().replace('T', ' ');
+        auditLog.add(waktu + " | " + aktivitas);
+    }
+
+    public DynamicArray<String> getAuditLog() {
+        return auditLog;
+    }
+
     public void eksporCSV(File file, DynamicArray<PutusanNarkotika> data) throws IOException {
         try (PrintWriter out = new PrintWriter(new BufferedWriter(new FileWriter(file)))) {
             // Header
