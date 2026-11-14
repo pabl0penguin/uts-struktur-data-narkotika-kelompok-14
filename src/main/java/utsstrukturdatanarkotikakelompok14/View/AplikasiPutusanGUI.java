@@ -1,4 +1,4 @@
-package View;
+package utsstrukturdatanarkotikakelompok14.View;
 
 import javax.swing.*;
 import javax.swing.table.DefaultTableModel;
