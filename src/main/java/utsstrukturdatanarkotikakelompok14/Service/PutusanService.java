@@ -1,5 +1,3 @@
-package Service;
-
 import Model.DynamicArray;
 import Model.PutusanNarkotika;
 import java.io.*;
