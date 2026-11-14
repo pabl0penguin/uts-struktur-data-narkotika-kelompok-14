@@ -8,7 +8,7 @@ Dokumen ini mencatat pembagian tugas tiap anggota pada project **Aplikasi Pengel
 
 | Nama | NIM | Akun github |
 |------|-----|-----|
-| Devis Suherma | 202510370110056 | [GAmbitz96](https://github.com)  |
+| Devis Suherma | 202510370110056 | [Gambitz96](https://github.com)  |
 
 ### Ekstraksi Data
 
