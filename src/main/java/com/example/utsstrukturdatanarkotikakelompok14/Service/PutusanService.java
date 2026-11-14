@@ -204,6 +204,34 @@ public class PutusanService {
         return hasil;
     }
 
+    public static class Agregasi {
+        public final int totalPerkara;
+        public final double rataVonis;
+        public final long totalDenda;
+
+        public Agregasi(int totalPerkara, double rataVonis, long totalDenda) {
+            this.totalPerkara = totalPerkara;
+            this.rataVonis = rataVonis;
+            this.totalDenda = totalDenda;
+        }
+    }
+
+    public Agregasi hitungAgregasi() {
+        if (database.isEmpty()) {
+            return new Agregasi(0, 0, 0);
+        }
+
+        long totalDenda = 0;
+        int totalVonis = 0;
+
+        for (int i = 0; i < database.size(); i++) {
+            totalDenda += database.get(i).getDendaRupiah();
+            totalVonis += database.get(i).getVonisBulan();
+        }
+
+        double rataVonis = (double) totalVonis / database.size();
+        return new Agregasi(database.size(), rataVonis, totalDenda);
+    }
 
     public void eksporCSV(File file, DynamicArray<PutusanNarkotika> data) throws IOException {
         try (PrintWriter out = new PrintWriter(new BufferedWriter(new FileWriter(file)))) {
