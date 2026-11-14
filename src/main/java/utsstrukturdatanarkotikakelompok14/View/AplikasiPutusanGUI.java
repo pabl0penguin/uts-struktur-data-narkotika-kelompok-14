@@ -1,5 +1,7 @@
 package utsstrukturdatanarkotikakelompok14.View;
-
+import utsstrukturdatanarkotikakelompok14.Model.DynamicArray;
+import utsstrukturdatanarkotikakelompok14.Model.PutusanNarkotika;
+import utsstrukturdatanarkotikakelompok14.Service.PutusanService;
 import javax.swing.*;
 import javax.swing.table.DefaultTableModel;
 import java.awt.*;
