@@ -23,6 +23,57 @@ public class PutusanService {
         database.clear();
     }
 
+    public int loadFromCSV(String filePath) throws IOException {
+        database.clear();
+        int valid = 0;
+
+        try (BufferedReader br = new BufferedReader(new FileReader(filePath))) {
+            String header = br.readLine();
+            if (header == null) return 0;
+
+            String line;
+            while ((line = br.readLine()) != null) {
+                try {
+                    String[] data = line.split(",(?=(?:[^\"]*\"[^\"]*\")*[^\"]*$)", -1);
+                    if (data.length < 16) continue;
+
+                    PutusanNarkotika p = getPutusanNarkotika(data);
+                    database.add(p);
+                    valid++;
+                } catch (Exception ex) {
+                    System.out.println("Data gagal diproses: " + ex.getMessage());
+                }
+            }
+        }
+        catatAudit("Impor CSV: " + valid + " data dari " + filePath);
+        return valid;
+    }
+
+    private PutusanNarkotika getPutusanNarkotika(String[] data) {
+        String caseId = data[0].trim();
+        String nomorPerkara = data[1].trim();
+        String pengadilan = data[2].trim();
+        LocalDate tanggalPutusan = LocalDate.parse(data[3].trim());
+        String terdakwaKode = data[4].trim();
+        String jenisNarkotika = data[5].trim();
+        double berat = data[6].trim().isEmpty() ? 0.0 : Double.parseDouble(data[6].trim());
+        String pasalDakwaan = data[7].trim();
+        String pasalTerbukti = data[8].trim();
+        int tuntutan = data[9].trim().isEmpty() ? 0 : (int) Double.parseDouble(data[9].trim());
+        int vonis = data[10].trim().isEmpty() ? 0 : Integer.parseInt(data[10].trim());
+        long denda = data[11].trim().isEmpty() ? 0L : Long.parseLong(data[11].trim());
+        String barangBukti = data[12].trim();
+        String memberatkan = data[13].trim();
+        String meringankan = data[14].trim();
+        String sourcePages = data[15].trim();
+
+        return new PutusanNarkotika(
+                caseId, nomorPerkara, pengadilan, tanggalPutusan, terdakwaKode,
+                jenisNarkotika, berat, pasalDakwaan, pasalTerbukti,
+                tuntutan, vonis, denda, barangBukti, memberatkan, meringankan, sourcePages
+        );
+    }
+
     public void tambah(PutusanNarkotika p) {
         if (cariIndexCaseId(p.getCaseId()) >= 0) {
             throw new IllegalArgumentException("Case ID sudah digunakan.");
@@ -48,5 +99,4 @@ public class PutusanService {
         }
         return -1;
     }
-
 }
