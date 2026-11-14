@@ -3,6 +3,7 @@ package View;
 import javax.swing.*;
 import javax.swing.table.DefaultTableModel;
 import java.awt.*;
+import java.io.File;
 import java.time.LocalDate;
 
 public class AplikasiPutusanGUI extends JFrame {
@@ -104,6 +105,8 @@ public class AplikasiPutusanGUI extends JFrame {
         btnTambahData.addActionListener(e -> tambahData());
         btnHapusData.addActionListener(e -> hapusData());
         btnUrutVonis.addActionListener(e -> tampilkanUrutVonis());
+        btnEkspor.addActionListener(e -> eksporFile());
+        btnAudit.addActionListener(e -> tampilkanAudit());
     }
     private void tampilkanData(DynamicArray<PutusanNarkotika> data) {
         tableModel.setRowCount(0);
@@ -137,6 +140,13 @@ public class AplikasiPutusanGUI extends JFrame {
                 p.getSourcePages()
         });
     }
+    private void updateAgregasi() {
+        PutusanService.Agregasi agg = service.hitungAgregasi();
+        lblAgregasi.setText(String.format(
+                "Agregasi -> Total Perkara: %d | Rata-rata Vonis: %.2f bulan | Total Denda: Rp %,d",
+                agg.totalPerkara, agg.rataVonis, agg.totalDenda));
+    }
+
     private void muatData(String path) {
         try {
             int jumlah = service.loadFromCSV(path);
@@ -277,5 +287,43 @@ public class AplikasiPutusanGUI extends JFrame {
                 JOptionPane.showMessageDialog(this, "Data tidak ditemukan pada struktur utama.");
             }
         }
+    }
+    private void eksporFile() {
+        if (dataTampilan.size() == 0) {
+            JOptionPane.showMessageDialog(this, "Tidak ada data pada tabel untuk diekspor.");
+            return;
+        }
+
+        JFileChooser chooser = new JFileChooser();
+        chooser.setSelectedFile(new File("hasil_putusan.csv"));
+        if (chooser.showSaveDialog(this) != JFileChooser.APPROVE_OPTION) return;
+
+        File file = chooser.getSelectedFile();
+        try {
+            service.eksporCSV(file, dataTampilan);
+            lblStatus.setText("Status: Ekspor berhasil (" + dataTampilan.size() + " data).");
+            JOptionPane.showMessageDialog(this, "Data berhasil diekspor ke:\n" + file.getAbsolutePath());
+        } catch (Exception ex) {
+            JOptionPane.showMessageDialog(this, "Gagal mengekspor: " + ex.getMessage(),
+                    "Error Ekspor", JOptionPane.ERROR_MESSAGE);
+        }
+    }
+
+    private void tampilkanAudit() {
+        DynamicArray<String> log = service.getAuditLog();
+        if (log.isEmpty()) {
+            JOptionPane.showMessageDialog(this, "Belum ada aktivitas yang tercatat.");
+            return;
+        }
+
+        StringBuilder sb = new StringBuilder();
+        for (int i = 0; i < log.size(); i++) {
+            sb.append(i + 1).append(". ").append(log.get(i)).append("\n");
+        }
+
+        JTextArea area = new JTextArea(sb.toString(), 18, 75);
+        area.setEditable(false);
+        area.setCaretPosition(0);
+        JOptionPane.showMessageDialog(this, new JScrollPane(area), "Riwayat Audit", JOptionPane.INFORMATION_MESSAGE);
     }
 }
