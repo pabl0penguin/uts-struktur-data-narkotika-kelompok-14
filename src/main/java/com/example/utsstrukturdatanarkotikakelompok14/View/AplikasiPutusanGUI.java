@@ -96,5 +96,39 @@ public class AplikasiPutusanGUI extends JFrame {
         panelBawah.add(subPanelTombol);
         panelBawah.add(subPanelAgregasi);
         add(panelBawah, BorderLayout.SOUTH);
+
+        btnReset.addActionListener(e -> tampilkanSemua());
+    }
+    private void tampilkanData(DynamicArray<PutusanNarkotika> data) {
+        tableModel.setRowCount(0);
+        dataTampilan = data;
+        for (int i = 0; i < data.size(); i++) {
+            tambahKeTabel(data.get(i));
+        }
+    }
+    private void tampilkanSemua() {
+        tampilkanData(service.getAll());
+        updateAgregasi();
+        lblStatus.setText("Status: Menampilkan semua data (" + service.size() + ")");
+    }
+    private void tambahKeTabel(PutusanNarkotika p) {
+        tableModel.addRow(new Object[]{
+                p.getCaseId(),
+                p.getNomorPerkara(),
+                p.getPengadilan(),
+                p.getTanggalPutusan(),
+                p.getTerdakwaKode(),
+                p.getJenisNarkotika(),
+                p.getBeratBarangBuktiGram(),
+                p.getPasalDakwaan(),
+                p.getPasalTerbukti(),
+                p.getTuntutanBulan(),
+                p.getVonisBulan(),
+                p.getDendaRupiah(),
+                p.getBarangBukti(),
+                p.getKeadaanMemberatkan(),
+                p.getKeadaanMeringankan(),
+                p.getSourcePages()
+        });
     }
 }
