@@ -102,6 +102,7 @@ public class AplikasiPutusanGUI extends JFrame {
         btnLoad.addActionListener(e -> muatData(txtPath.getText().trim()));
         btnReset.addActionListener(e -> tampilkanSemua());
         btnSearch.addActionListener(e -> lakukanPencarian());
+        btnFilter.addActionListener(e -> filterPencarian());
         btnTambahData.addActionListener(e -> tambahData());
         btnHapusData.addActionListener(e -> hapusData());
         btnUrutVonis.addActionListener(e -> tampilkanUrutVonis());
@@ -195,6 +196,40 @@ public class AplikasiPutusanGUI extends JFrame {
                     "Pencarian Gagal", JOptionPane.WARNING_MESSAGE);
             tampilkanSemua();
         }
+    }
+
+    private void filterPencarian() {
+        String kategori = pasalTerbukti.getSelectedItem().toString();
+        String keyword = txtFilterJenis.getText().trim();
+
+        if (keyword.isEmpty()) {
+            JOptionPane.showMessageDialog(this, "Masukkan kata kunci filter!");
+            return;
+        }
+
+        // Validasi input
+        if (kategori.equals("Jenis Narkotika") && !keyword.matches("[a-zA-Z\\s().-]+")) {
+            JOptionPane.showMessageDialog(this, "Filter Jenis Narkotika harus berupa teks!", "Input Tidak Valid", JOptionPane.WARNING_MESSAGE);
+            return;
+        }
+        if (kategori.equals("Vonis")) {
+            try { Integer.parseInt(keyword); }
+            catch (NumberFormatException ex) {
+                JOptionPane.showMessageDialog(this, "Filter Vonis harus berupa angka bulat!", "Input Tidak Valid", JOptionPane.WARNING_MESSAGE);
+                return;
+            }
+        }
+        if (kategori.equals("Berat Narkotika")) {
+            try { Double.parseDouble(keyword.replace(',', '.')); }
+            catch (NumberFormatException ex) {
+                JOptionPane.showMessageDialog(this, "Filter Berat Narkotika harus berupa angka!", "Input Tidak Valid", JOptionPane.WARNING_MESSAGE);
+                return;
+            }
+        }
+
+        DynamicArray<PutusanNarkotika> hasil = service.filter(kategori, keyword);
+        tampilkanData(hasil);
+        lblStatus.setText("Status: Filter aktif (" + hasil.size() + " data cocok)");
     }
 
     private void tampilkanUrutVonis() {
