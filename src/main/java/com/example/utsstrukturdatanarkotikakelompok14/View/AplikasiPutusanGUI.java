@@ -99,6 +99,7 @@ public class AplikasiPutusanGUI extends JFrame {
 
         btnLoad.addActionListener(e -> muatData(txtPath.getText().trim()));
         btnReset.addActionListener(e -> tampilkanSemua());
+        btnSearch.addActionListener(e -> lakukanPencarian());
     }
     private void tampilkanData(DynamicArray<PutusanNarkotika> data) {
         tableModel.setRowCount(0);
@@ -140,6 +141,45 @@ public class AplikasiPutusanGUI extends JFrame {
         } catch (Exception e) {
             JOptionPane.showMessageDialog(this, "Gagal membaca file: " + e.getMessage(),
                     "Error I/O", JOptionPane.ERROR_MESSAGE);
+        }
+    }
+
+    private void lakukanPencarian() {
+        String kategori = kategoriCari.getSelectedItem().toString();
+        String keyword = txtSearch.getText().trim();
+
+        if (keyword.isEmpty()) {
+            JOptionPane.showMessageDialog(this, "Masukkan kata kunci pencarian!", "Peringatan", JOptionPane.WARNING_MESSAGE);
+            return;
+        }
+        if (kategori.equals("Case ID") && keyword.contains("/")) {
+            JOptionPane.showMessageDialog(this, "Anda memilih pencarian Case ID, bukan Nomor Perkara!", "Input Tidak Sesuai", JOptionPane.ERROR_MESSAGE);
+            return;
+        }
+        if (kategori.equals("Nomor Perkara") && !keyword.contains("/")) {
+            JOptionPane.showMessageDialog(this, "Anda memilih pencarian Nomor Perkara, bukan Case ID!", "Input Tidak Sesuai", JOptionPane.ERROR_MESSAGE);
+            return;
+        }
+
+        PutusanService.SearchResult hasil = service.cari(kategori, keyword);
+
+        if (hasil.found) {
+            DynamicArray<PutusanNarkotika> temp = new DynamicArray<>();
+            temp.add(hasil.data);
+            tampilkanData(temp);
+
+            JOptionPane.showMessageDialog(this,
+                    "Data ditemukan!\n\nKategori : " + kategori +
+                            "\nKata Kunci : " + keyword +
+                            "\nJumlah Langkah : " + hasil.langkah,
+                    "Hasil Pencarian", JOptionPane.INFORMATION_MESSAGE);
+
+            lblStatus.setText("Status: Data ditemukan dalam " + hasil.langkah + " langkah");
+        } else {
+            JOptionPane.showMessageDialog(this,
+                    "Data tidak ditemukan setelah " + hasil.langkah + " langkah.",
+                    "Pencarian Gagal", JOptionPane.WARNING_MESSAGE);
+            tampilkanSemua();
         }
     }
 }
