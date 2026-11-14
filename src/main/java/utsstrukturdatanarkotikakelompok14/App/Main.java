@@ -1,13 +1,16 @@
 package utsstrukturdatanarkotikakelompok14.App;
-import gui.AplikasiPutusanGUI;
+import utsstrukturdatanarkotikakelompok14.View.AplikasiPutusanGUI;
 import javax.swing.*;
 
-public static void main(String[] args) {
-    try {
-        UIManager.setLookAndFeel(UIManager.getSystemLookAndFeelClassName());
-    } catch (Exception ignored) {}
+public class Main {
+    public static void main(String[] args) {
+        try {
+            UIManager.setLookAndFeel(UIManager.getSystemLookAndFeelClassName());
+        } catch (Exception ignored) {
+        }
 
-    SwingUtilities.invokeLater(() -> {
-        new AplikasiPutusanGUI().setVisible(true);
-    });
+        SwingUtilities.invokeLater(() -> {
+            new AplikasiPutusanGUI().setVisible(true);
+        });
+    }
 }
