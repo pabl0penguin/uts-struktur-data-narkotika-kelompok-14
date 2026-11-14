@@ -32,7 +32,7 @@ public class AplikasiPutusanGUI extends JFrame {
         JPanel panelAtas = new JPanel(new FlowLayout(FlowLayout.LEFT, 10, 10));
         panelAtas.setBorder(BorderFactory.createTitledBorder("1. Impor & Kontrol Data"));
 
-        txtPath = new JTextField("tugasUtsSudahdiPecah/data/DataPutusan_50.csv", 25);
+        txtPath = new JTextField("data/dataPutusan_50.csv", 25);
         JButton btnLoad = new JButton("Impor CSV");
         lblStatus = new JLabel("Status: Belum dimuat");
 
