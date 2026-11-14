@@ -103,6 +103,7 @@ public class AplikasiPutusanGUI extends JFrame {
         btnSearch.addActionListener(e -> lakukanPencarian());
         btnTambahData.addActionListener(e -> tambahData());
         btnHapusData.addActionListener(e -> hapusData());
+        btnUrutVonis.addActionListener(e -> tampilkanUrutVonis());
     }
     private void tampilkanData(DynamicArray<PutusanNarkotika> data) {
         tableModel.setRowCount(0);
@@ -185,6 +186,13 @@ public class AplikasiPutusanGUI extends JFrame {
             tampilkanSemua();
         }
     }
+
+    private void tampilkanUrutVonis() {
+        DynamicArray<PutusanNarkotika> hasil = service.urutkanBerdasarkanVonis();
+        tampilkanData(hasil);
+        lblStatus.setText("Status: Data ditampilkan berdasarkan Vonis (Ascending)");
+    }
+
     private void tambahData() {
         JTextField id = new JTextField();
         JTextField perkara = new JTextField();
