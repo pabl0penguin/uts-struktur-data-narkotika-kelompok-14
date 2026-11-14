@@ -74,6 +74,45 @@ public class PutusanService {
         );
     }
 
+    public static class SearchResult {
+        public final PutusanNarkotika data;
+        public final int langkah;
+        public final boolean found;
+
+        public SearchResult(PutusanNarkotika data, int langkah, boolean found) {
+            this.data = data;
+            this.langkah = langkah;
+            this.found = found;
+        }
+    }
+
+    public SearchResult cari(String kategori, String keyword) {
+        keyword = keyword.toLowerCase().trim();
+        int langkah = 0;
+        PutusanNarkotika hasil = null;
+
+        for (int i = 0; i < database.size(); i++) {
+            langkah++;
+            PutusanNarkotika p = database.get(i);
+            boolean cocok;
+
+            if (kategori.equals("Case ID")) {
+                cocok = p.getCaseId().equalsIgnoreCase(keyword);
+            } else {
+                cocok = p.getNomorPerkara().equalsIgnoreCase(keyword);
+            }
+
+            if (cocok) {
+                hasil = p;
+                break;
+            }
+        }
+
+        boolean found = hasil != null;
+        catatAudit("Cari " + kategori + " [" + keyword + "] (" + (found ? 1 : 0) + " hasil)");
+        return new SearchResult(hasil, langkah, found);
+    }
+
     public void tambah(PutusanNarkotika p) {
         if (cariIndexCaseId(p.getCaseId()) >= 0) {
             throw new IllegalArgumentException("Case ID sudah digunakan.");
@@ -130,6 +169,7 @@ public class PutusanService {
                 );
             }
         }
+        catatAudit("Ekspor " + data.size() + " baris ke " + file.getName());
     }
 
     private String csvEscape(String value) {
