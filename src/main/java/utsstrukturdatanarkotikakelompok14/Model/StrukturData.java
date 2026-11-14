@@ -1,3 +1,4 @@
+package utsstrukturdatanarkotikakelompok14.Model;
 public interface StrukturData<T> {
     void add(T value);
     T get(int position);
@@ -6,4 +7,6 @@ public interface StrukturData<T> {
     boolean isEmpty();
     boolean contains(T value);
     void clear();
+
+    int search(T value);
 }
