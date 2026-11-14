@@ -1,5 +1,3 @@
-package Model;
-
 public interface StrukturData<T> {
     void add(T value);
     T get(int position);

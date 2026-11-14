@@ -1,5 +1,3 @@
-package Model;
-
 public class DynamicArray<T> implements StrukturData<T> {
 
     private Object[] elements;
