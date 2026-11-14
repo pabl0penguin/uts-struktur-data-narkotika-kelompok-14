@@ -97,6 +97,7 @@ public class AplikasiPutusanGUI extends JFrame {
         panelBawah.add(subPanelAgregasi);
         add(panelBawah, BorderLayout.SOUTH);
 
+        btnLoad.addActionListener(e -> muatData(txtPath.getText().trim()));
         btnReset.addActionListener(e -> tampilkanSemua());
     }
     private void tampilkanData(DynamicArray<PutusanNarkotika> data) {
@@ -130,5 +131,15 @@ public class AplikasiPutusanGUI extends JFrame {
                 p.getKeadaanMeringankan(),
                 p.getSourcePages()
         });
+    }
+    private void muatData(String path) {
+        try {
+            int jumlah = service.loadFromCSV(path);
+            tampilkanSemua();
+            lblStatus.setText("Status: Berhasil memuat " + jumlah + " data");
+        } catch (Exception e) {
+            JOptionPane.showMessageDialog(this, "Gagal membaca file: " + e.getMessage(),
+                    "Error I/O", JOptionPane.ERROR_MESSAGE);
+        }
     }
 }
