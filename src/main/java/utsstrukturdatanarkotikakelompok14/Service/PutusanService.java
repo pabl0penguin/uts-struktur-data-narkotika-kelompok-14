@@ -1,5 +1,7 @@
-import Model.DynamicArray;
-import Model.PutusanNarkotika;
+package utsstrukturdatanarkotikakelompok14.Service;
+
+import utsstrukturdatanarkotikakelompok14.Model.DynamicArray;
+import utsstrukturdatanarkotikakelompok14.Model.PutusanNarkotika;
 import java.io.*;
 import java.time.LocalDate;
 import java.time.LocalDateTime;
