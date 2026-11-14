@@ -113,6 +113,46 @@ public class PutusanService {
         return new SearchResult(hasil, langkah, found);
     }
 
+    public DynamicArray<PutusanNarkotika> filter(String kategori, String keyword) {
+        DynamicArray<PutusanNarkotika> hasil = new DynamicArray<>();
+        keyword = keyword.trim();
+
+        for (int i = 0; i < database.size(); i++) {
+            PutusanNarkotika p = database.get(i);
+            boolean cocok = false;
+
+            switch (kategori) {
+                case "Jenis Narkotika":
+                    if (p.getJenisNarkotika() != null &&
+                            p.getJenisNarkotika().toLowerCase().contains(keyword.toLowerCase())) {
+                        cocok = true;
+                    }
+                    break;
+                case "Berat Narkotika":
+                    double targetBerat = Double.parseDouble(keyword.replace(',', '.'));
+                    cocok = Double.compare(p.getBeratBarangBuktiGram(), targetBerat) == 0;
+                    break;
+                case "Pasal Terbukti":
+                    if (p.getPasalTerbukti() != null &&
+                            p.getPasalTerbukti().toLowerCase().contains(keyword.toLowerCase())) {
+                        cocok = true;
+                    }
+                    break;
+                case "Vonis":
+                    int targetVonis = Integer.parseInt(keyword);
+                    cocok = p.getVonisBulan() == targetVonis;
+                    break;
+            }
+
+            if (cocok) {
+                hasil.add(p);
+            }
+        }
+
+        catatAudit("Filter " + kategori + " [" + keyword + "] → " + hasil.size() + " data");
+        return hasil;
+    }
+
     public void tambah(PutusanNarkotika p) {
         if (cariIndexCaseId(p.getCaseId()) >= 0) {
             throw new IllegalArgumentException("Case ID sudah digunakan.");
