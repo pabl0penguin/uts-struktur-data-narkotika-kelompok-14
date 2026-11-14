@@ -3,6 +3,7 @@ package View;
 import javax.swing.*;
 import javax.swing.table.DefaultTableModel;
 import java.awt.*;
+import java.time.LocalDate;
 
 public class AplikasiPutusanGUI extends JFrame {
     private final PutusanService service = new PutusanService();
@@ -100,6 +101,8 @@ public class AplikasiPutusanGUI extends JFrame {
         btnLoad.addActionListener(e -> muatData(txtPath.getText().trim()));
         btnReset.addActionListener(e -> tampilkanSemua());
         btnSearch.addActionListener(e -> lakukanPencarian());
+        btnTambahData.addActionListener(e -> tambahData());
+        btnHapusData.addActionListener(e -> hapusData());
     }
     private void tampilkanData(DynamicArray<PutusanNarkotika> data) {
         tableModel.setRowCount(0);
@@ -180,6 +183,91 @@ public class AplikasiPutusanGUI extends JFrame {
                     "Data tidak ditemukan setelah " + hasil.langkah + " langkah.",
                     "Pencarian Gagal", JOptionPane.WARNING_MESSAGE);
             tampilkanSemua();
+        }
+    }
+    private void tambahData() {
+        JTextField id = new JTextField();
+        JTextField perkara = new JTextField();
+        JTextField pengadilan = new JTextField();
+        JTextField tanggal = new JTextField(LocalDate.now().toString());
+        JTextField terdakwa = new JTextField();
+        JTextField jenis = new JTextField();
+        JTextField berat = new JTextField();
+        JTextField dakwaan = new JTextField();
+        JTextField terbukti = new JTextField();
+        JTextField tuntutan = new JTextField();
+        JTextField vonis = new JTextField();
+        JTextField denda = new JTextField();
+        JTextField memberatkan = new JTextField();
+        JTextField meringankan = new JTextField();
+        JTextField barangBukti = new JTextField();
+
+        Object[] fields = {
+                "Case ID:", id, "Nomor perkara:", perkara, "Pengadilan:", pengadilan,
+                "Tanggal (YYYY-MM-DD):", tanggal, "Kode terdakwa:", terdakwa,
+                "Jenis narkotika:", jenis, "Berat barang bukti (gram):", berat,
+                "Pasal dakwaan:", dakwaan, "Pasal terbukti:", terbukti,
+                "Tuntutan (bulan):", tuntutan, "Vonis (bulan):", vonis, "Denda (rupiah):", denda,
+                "Keadaan Memberatkan:", memberatkan, "Keadaan Meringankan:", meringankan,
+                "Barang Bukti:", barangBukti
+        };
+
+        int pilihan = JOptionPane.showConfirmDialog(this, fields, "Tambah Putusan",
+                JOptionPane.OK_CANCEL_OPTION, JOptionPane.PLAIN_MESSAGE);
+
+        if (pilihan != JOptionPane.OK_OPTION) return;
+
+        try {
+            if (id.getText().trim().isEmpty() || perkara.getText().trim().isEmpty()) {
+                throw new IllegalArgumentException("Case ID dan nomor perkara wajib diisi.");
+            }
+
+            PutusanNarkotika p = new PutusanNarkotika(
+                    id.getText().trim(),
+                    perkara.getText().trim(),
+                    pengadilan.getText().trim(),
+                    LocalDate.parse(tanggal.getText().trim()),
+                    terdakwa.getText().trim(),
+                    jenis.getText().trim(),
+                    Double.parseDouble(berat.getText().trim()),
+                    dakwaan.getText().trim(),
+                    terbukti.getText().trim(),
+                    Integer.parseInt(tuntutan.getText().trim()),
+                    Integer.parseInt(vonis.getText().trim()),
+                    Long.parseLong(denda.getText().trim()),
+                    barangBukti.getText().trim(),
+                    memberatkan.getText().trim(),
+                    meringankan.getText().trim(),
+                    "Input manual"
+            );
+
+            service.tambah(p);
+            tampilkanSemua();
+            lblStatus.setText("Status: Data berhasil ditambahkan.");
+        } catch (Exception ex) {
+            JOptionPane.showMessageDialog(this, "Data tidak valid: " + ex.getMessage(),
+                    "Gagal menambah data", JOptionPane.ERROR_MESSAGE);
+        }
+    }
+    private void hapusData() {
+        int baris = table.getSelectedRow();
+        if (baris < 0) {
+            JOptionPane.showMessageDialog(this, "Pilih satu baris pada tabel terlebih dahulu.");
+            return;
+        }
+
+        String id = String.valueOf(table.getValueAt(baris, 0));
+        int konfirmasi = JOptionPane.showConfirmDialog(this,
+                "Hapus putusan dengan Case ID " + id + "?", "Konfirmasi Hapus",
+                JOptionPane.YES_NO_OPTION);
+
+        if (konfirmasi == JOptionPane.YES_OPTION) {
+            if (service.hapusByCaseId(id)) {
+                tampilkanSemua();
+                lblStatus.setText("Status: Data " + id + " berhasil dihapus.");
+            } else {
+                JOptionPane.showMessageDialog(this, "Data tidak ditemukan pada struktur utama.");
+            }
         }
     }
 }
