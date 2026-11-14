@@ -1,1 +1,802 @@
+case_id,field_name,value,source_file,source_page,extractor,reviewer,status
+P001,nomorPerkara,883/Pid.Sus/2026/PN.Tng,putusan_p001.pdf,1,Devis,Angga,verified
+P001,pengadilan,Pengadilan Negeri Tangerang Kelas IA Khusus,putusan_p001.pdf,1,Devis,Angga,verified
+P001,tanggalPutusan,9/24/2026,putusan_p001.pdf,37,Devis,Angga,verified
+P001,terdakwaKode,MI,putusan_p001.pdf,1,Devis,Angga,verified
+P001,jenisNarkotika,Sabu (Metamfetamina),putusan_p001.pdf,2,Devis,Angga,verified
+P001,beratBarangBuktiGram,80.25,putusan_p001.pdf,2,Devis,Angga,verified
+P001,pasalDakwaan,"Pasal 114 ayat (2) jo Pasal 132 ayat (1) UU No. 35 Tahun 2009 jo UU No. 1 Tahun 2023 jo UU No. 1 Tahun 2026",putusan_p001.pdf,3,Devis,Angga,verified
+P001,pasalTerbukti,Pasal 114 ayat (2) UU No. 35 Tahun 2009,putusan_p001.pdf,36,Devis,Angga,,verified
+P001,tuntutanBulan,60.0,putusan_p001.pdf,2,Devis,Angga,verified
+P001,vonisBulan,96,putusan_p001.pdf,36,Devis,Angga,verified
+P001,dendaRupiah,1000000000,putusan_p001.pdf,36,Devis,Angga,verified
+P001,barangBukti,"3 plastik bening pres berisi sabu total netto 80,25 gram, 1 pasang sepatu merek CASTELLO, 1 unit Handphone VIVO Y17S",putusan_p001.pdf,2,Devis,Angga,verified
+P001,keadaanMemberatkan,"Bertentangan dengan program pemerintah; Kejahatan luar biasa (extraordinary crime); Perbuatan dilakukan oleh lebih dari satu orang",putusan_p001.pdf,33,Devis,Angga,verified
+P001,keadaanMeringankan,"Terdakwa masih berusia relatif muda; Menunjukkan rasa bersalah dan penyesalan mendalam; Belum pernah dihukum",putusan_p001.pdf,33,Devis,Angga,verified
+P001,sourcePages,"1, 2, 3, 32, 33, 36, 37",putusan_p001.pdf,"1, 2, 3, 32, 33, 36, 37",Devis,Angga,verified
+
+P002,nomorPerkara,967/Pid.Sus/2026/PN Tng,putusan_p002.pdf,1,Devis,Angga,verified
+P002,pengadilan,Pengadilan Negeri Tangerang Kelas IA Khusus,putusan_p002.pdf,1,Devis,Angga,verified
+P002,tanggalPutusan,8/20/2026,putusan_p002.pdf,30,Devis,Angga,verified
+P002,terdakwaKode,SFAG,putusan_p002.pdf,1,Devis,Angga,verified
+P002,jenisNarkotika,Sabu (Metamfetamina),putusan_p002.pdf,2,Devis,Angga,verified
+P002,beratBarangBuktiGram,3.8255,putusan_p002.pdf,2,Devis,Angga,verified
+P002,pasalDakwaan,Pasal 114 ayat (1) UU No. 35 Tahun 2009,putusan_p002.pdf,3,Devis,Angga,verified
+P002,pasalTerbukti,"Pasal 114 ayat (1) UU No. 35 Tahun 2009 jo UU No. 1 Tahun 2026",putusan_p002.pdf,29,Devis,Angga,verified
+P002,tuntutanBulan,90.0,putusan_p002.pdf,2,Devis,Angga,verified
+P002,vonisBulan,84,putusan_p002.pdf,29,Devis,Angga,verified
+P002,dendaRupiah,1000000000,putusan_p002.pdf,29,Devis,Angga,verified
+P002,barangBukti,"2 bungkus plastik bening berisi sabu netto 0,1524 gram dan 3,6731 gram, 1 unit HP iPhone",putusan_p002.pdf,2,Devis,Angga,verified
+P002,keadaanMemberatkan,Perbuatan terdakwa tidak mendukung program pemerintah dalam memberantas tindak pidana narkotika,putusan_p002.pdf,28,Devis,Angga,verified
+P002,keadaanMeringankan,"Terdakwa menyesali perbuatannya; Terdakwa bersikap sopan selama persidangan",putusan_p002.pdf,28,Devis,Angga,verified
+P002,sourcePages,"1, 2, 3, 28, 29, 30",putusan_p002.pdf,"1, 2, 3, 28, 29, 30",Devis,Angga,verified
+
+P003,nomorPerkara,991/Pid.Sus/2026/PN Tng,putusan_p003.pdf,1,Devis,Angga,verified
+P003,pengadilan,Pengadilan Negeri Tangerang Kelas IA Khusus,putusan_p003.pdf,1,Devis,Angga,verified
+P003,tanggalPutusan,9/24/2026,putusan_p003.pdf,29,Devis,Angga,verified
+P003,terdakwaKode,YY,putusan_p003.pdf,1,Devis,Angga,verified
+P003,jenisNarkotika,"Tembakau Sintetis (MDMB-4en PINACA)",putusan_p003.pdf,2,Devis,Angga,verified
+P003,beratBarangBuktiGram,70.0557,putusan_p003.pdf,2,Devis,Angga,verified
+P003,pasalDakwaan,"Pasal 114 ayat (1) jo Pasal 132 ayat (1) UU No. 35 Tahun 2009",putusan_p003.pdf,4,Devis,Angga,verified
+P003,pasalTerbukti,"Pasal 114 ayat (1) jo Pasal 132 ayat (1) UU No. 35 Tahun 2009",putusan_p003.pdf,28,Devis,Angga,verified
+P003,tuntutanBulan,72.0,putusan_p003.pdf,2,Devis,Angga,verified
+P003,vonisBulan,69,putusan_p003.pdf,28,Devis,Angga,verified
+P003,dendaRupiah,1000000000,putusan_p003.pdf,28,Devis,Angga,verified
+P003,barangBukti,"1 bungkus plastik klip berisi tembakau sintetis netto 66,8028 gram dan 3,2529 gram, 1 unit HP Realme",putusan_p003.pdf,2,Devis,Angga,verified
+P003,keadaanMemberatkan,Perbuatan terdakwa bertentangan dengan program pemerintah dalam merusak generasi muda,putusan_p003.pdf,27,Devis,Angga,verified
+P003,keadaanMeringankan,"Terdakwa mengakui dan menyesali perbuatannya; Belum pernah dihukum",putusan_p003.pdf,27,Devis,Angga,verified
+P003,sourcePages,"1, 2, 4, 27, 28, 29",putusan_p003.pdf,"1, 2, 4, 27, 28, 29",Devis,Angga,verified
+
+P004,nomorPerkara,1017/Pid.Sus/2026/PN Tng,putusan_p004.pdf,1,Devis,Angga,verified
+P004,pengadilan,Pengadilan Negeri Tangerang Kelas IA Khusus,putusan_p004.pdf,1,Devis,Angga,verified
+P004,tanggalPutusan,9/28/2026,putusan_p004.pdf,47,Devis,Angga,verified
+P004,terdakwaKode,RR,putusan_p004.pdf,1,Devis,Angga,verified
+P004,jenisNarkotika,Sabu (Metamfetamina),putusan_p004.pdf,2,Devis,Angga,verified
+P004,beratBarangBuktiGram,114.5709,putusan_p004.pdf,2,Devis,Angga,verified
+P004,pasalDakwaan,Pasal 114 ayat (2) UU No. 35 Tahun 2009,putusan_p004.pdf,3,Devis,Angga,verified
+P004,pasalTerbukti,"Pasal 114 ayat (2) UU No. 35 Tahun 2009 jo UU No. 1 Tahun 2026",putusan_p004.pdf,45,Devis,Angga,verified
+P004,tuntutanBulan,156.0,putusan_p004.pdf,2,Devis,Angga,verified
+P004,vonisBulan,120,putusan_p004.pdf,45,Devis,Angga,verified
+P004,dendaRupiah,2000000000,putusan_p004.pdf,45,Devis,Angga,verified
+P004,barangBukti,"1 bungkus plastik klip sabu netto sisa lab 114,5709 gram, timbangan digital, 1 unit HP Samsung",putusan_p004.pdf,2,Devis,Angga,verified
+P004,keadaanMemberatkan,Perbuatan terdakwa meresahkan masyarakat dan tidak mendukung program pemerintah,putusan_p004.pdf,44,Devis,Angga,verified
+P004,keadaanMeringankan,"Terdakwa bersikap sopan dan belum pernah dihukum",putusan_p004.pdf,44,Devis,Angga,verified
+P004,sourcePages,"1, 2, 3, 44, 45, 47",putusan_p004.pdf,"1, 2, 3, 44, 45, 47",Devis,Angga,verified
+
+P005,nomorPerkara,1019/Pid.Sus/2026/PN Tng,putusan_p005.pdf,1,Devis,Angga,verified
+P005,pengadilan,Pengadilan Negeri Tangerang Kelas IA Khusus,putusan_p005.pdf,1,Devis,Angga,verified
+P005,tanggalPutusan,9/8/2026,putusan_p005.pdf,25,Devis,Angga,verified
+P005,terdakwaKode,AS,putusan_p005.pdf,1,Devis,Angga,verified
+P005,jenisNarkotika,Sabu (Metamfetamina),putusan_p005.pdf,2,Devis,Angga,verified
+P005,beratBarangBuktiGram,0.6954,putusan_p005.pdf,2,Devis,Angga,verified
+P005,pasalDakwaan,Pasal 114 ayat (1) UU No. 35 Tahun 2009,putusan_p005.pdf,3,Devis,Angga,verified
+P005,pasalTerbukti,"Pasal 114 ayat (1) UU No. 35 Tahun 2009 jo UU No. 1 Tahun 2026",putusan_p005.pdf,24,Devis,Angga,verified
+P005,tuntutanBulan,48.0,putusan_p005.pdf,2,Devis,Angga,verified
+P005,vonisBulan,42,putusan_p005.pdf,24,Devis,Angga,verified
+P005,dendaRupiah,175000000,putusan_p005.pdf,24,Devis,Angga,verified
+P005,barangBukti,"1 plastik bening berisi sabu netto 0,6954 gram, 1 set alat hisap (bong), 1 unit HP Poco",putusan_p005.pdf,2,Devis,Angga,verified
+P005,keadaanMemberatkan,Perbuatan terdakwa bertentangan dengan program pemerintah dalam penanggulangan narkotika,putusan_p005.pdf,23,Devis,Angga,verified
+P005,keadaanMeringankan,Terdakwa mengaku berterus terang dan bersikap sopan di persidangan,putusan_p005.pdf,23,Devis,Angga,verified
+P005,sourcePages,"1, 2, 3, 23, 24, 25",putusan_p005.pdf,"1, 2, 3, 23, 24, 25",Devis,Angga,verified
+
+P006,nomorPerkara,1020/Pid.Sus/2026/PN Tng,putusan_p006.pdf,1,Devis,Angga,verified
+P006,pengadilan,Pengadilan Negeri Tangerang Kelas IA Khusus,putusan_p006.pdf,1,Devis,Angga,verified
+P006,tanggalPutusan,10/15/2026,putusan_p006.pdf,40,Devis,Angga,verified
+P006,terdakwaKode,LKY,putusan_p006.pdf,1,Devis,Angga,verified
+P006,jenisNarkotika,"MDMA (Ekstasi) & Ketamine",putusan_p006.pdf,2,Devis,Angga,verified
+P006,beratBarangBuktiGram,1363.34,putusan_p006.pdf,2,Devis,Angga,verified
+P006,pasalDakwaan,"Pasal 114 ayat (2) UU No. 35 Tahun 2009 & Pasal 435 UU No. 17 Tahun 2023",putusan_p006.pdf,5,Devis,Angga,verified
+P006,pasalTerbukti,Pasal 114 ayat (2) UU No. 35 Tahun 2009,putusan_p006.pdf,39,Devis,Angga,verified
+P006,tuntutanBulan,96.0,putusan_p006.pdf,2,Devis,Angga,verified
+P006,vonisBulan,84,putusan_p006.pdf,39,Devis,Angga,verified
+P006,dendaRupiah,1000000000,putusan_p006.pdf,39,Devis,Angga,verified
+P006,barangBukti,"980,61 gram MDMA (Ekstasi) dan 382,73 gram Ketamine, 1 unit HP iPhone 13 Pro",putusan_p006.pdf,3,Devis,Angga,verified
+P006,keadaanMemberatkan,Perbuatan terdakwa berpotensi merusak kesehatan masyarakat luas,putusan_p006.pdf,38,Devis,Angga,verified
+P006,keadaanMeringankan,Terdakwa mengakui bersalah dan menyesali perbuatannya,putusan_p006.pdf,38,Devis,Angga,verified
+P006,sourcePages,"1, 2, 5, 38, 39, 40",putusan_p006.pdf,"1, 2, 5, 38, 39, 40",Devis,Angga,verified
+
+P007,nomorPerkara,1021/Pid.Sus/2026/PN.Tng,putusan_p007.pdf,1,Devis,Angga,verified
+P007,pengadilan,Pengadilan Negeri Tangerang Kelas IA Khusus,putusan_p007.pdf,1,Devis,Angga,verified
+P007,tanggalPutusan,10/8/2026,putusan_p007.pdf,114,Devis,Angga,verified
+P007,terdakwaKode,MJ,putusan_p007.pdf,1,Devis,Angga,verified
+P007,jenisNarkotika,Sabu (Metamfetamina),putusan_p007.pdf,3,Devis,Angga,verified
+P007,beratBarangBuktiGram,482.1,putusan_p007.pdf,3,Devis,Angga,verified
+P007,pasalDakwaan,Pasal 114 ayat (2) UU No. 35 Tahun 2009,putusan_p007.pdf,6,Devis,Angga,verified
+P007,pasalTerbukti,"Pasal 114 ayat (2) UU No. 35 Tahun 2009 jo UU No. 1 Tahun 2026",putusan_p007.pdf,112,Devis,Angga,verified
+P007,tuntutanBulan,180.0,putusan_p007.pdf,3,Devis,Angga,verified
+P007,vonisBulan,144,putusan_p007.pdf,112,Devis,Angga,verified
+P007,dendaRupiah,1500000000,putusan_p007.pdf,112,Devis,Angga,verified
+P007,barangBukti,"5 bungkus kemasan teh Cina berisi sabu total netto 482,10 gram, Koper hitam, 2 unit HP",putusan_p007.pdf,3,Devis,Angga,verified
+P007,keadaanMemberatkan,Perbuatan terdakwa tergolong kejahatan lintas negara/jaringan internasional,putusan_p007.pdf,110,Devis,Angga,verified
+P007,keadaanMeringankan,Terdakwa mengakui secara jujur dan tidak menyulitkan jalannya persidangan,putusan_p007.pdf,110,Devis,Angga,verified
+P007,sourcePages,"1, 3, 6, 110, 112, 114",putusan_p007.pdf,"1, 3, 6, 110, 112, 114",Devis,Angga,verified
+
+P008,nomorPerkara,1025/Pid.Sus/2026/PN Tng,putusan_p008.pdf,1,Devis,Angga,verified
+P008,pengadilan,Pengadilan Negeri Tangerang Kelas IA Khusus,putusan_p008.pdf,1,Devis,Angga,verified
+P008,tanggalPutusan,9/17/2026,putusan_p008.pdf,30,Devis,Angga,verified
+P008,terdakwaKode,ASB,putusan_p008.pdf,1,Devis,Angga,verified
+P008,jenisNarkotika,Sabu (Metamfetamina),putusan_p008.pdf,2,Devis,Angga,verified
+P008,beratBarangBuktiGram,1.12,putusan_p008.pdf,2,Devis,Angga,verified
+P008,pasalDakwaan,Pasal 112 ayat (1) UU No. 35 Tahun 2009,putusan_p008.pdf,4,Devis,Angga,verified
+P008,pasalTerbukti,Pasal 112 ayat (1) UU No. 35 Tahun 2009,putusan_p008.pdf,29,Devis,Angga,verified
+P008,tuntutanBulan,60.0,putusan_p008.pdf,2,Devis,Angga,verified
+P008,vonisBulan,48,putusan_p008.pdf,29,Devis,Angga,verified
+P008,dendaRupiah,800000000,putusan_p008.pdf,29,Devis,Angga,verified
+P008,barangBukti,"2 paket plastik bening sabu total netto 1,12 gram, 1 unit HP Redmi",putusan_p008.pdf,2,Devis,Angga,verified
+P008,keadaanMemberatkan,Perbuatan terdakwa tidak mendukung program pemerintah meredam peredaran narkotika,putusan_p008.pdf,28,Devis,Angga,verified
+P008,keadaanMeringankan,Terdakwa tulang punggung keluarga dan bersikap sopan,putusan_p008.pdf,28,Devis,Angga,verified
+P008,sourcePages,"1, 2, 4, 28, 29, 30",putusan_p008.pdf,"1, 2, 4, 28, 29, 30",Devis,Angga,verified
+
+P009,nomorPerkara,1033/Pid.Sus/2026/PN Tng,putusan_p009.pdf,1,Devis,Angga,verified
+P009,pengadilan,Pengadilan Negeri Tangerang Kelas IA Khusus,putusan_p009.pdf,1,Devis,Angga,verified
+P009,tanggalPutusan,9/22/2026,putusan_p009.pdf,31,Devis,Angga,verified
+P009,terdakwaKode,MA,putusan_p009.pdf,1,Devis,Angga,verified
+P009,jenisNarkotika,Sabu (Metamfetamina),putusan_p009.pdf,2,Devis,Angga,verified
+P009,beratBarangBuktiGram,0.45,putusan_p009.pdf,2,Devis,Angga,verified
+P009,pasalDakwaan,Pasal 114 ayat (1) UU No. 35 Tahun 2009,putusan_p009.pdf,3,Devis,Angga,verified
+P009,pasalTerbukti,Pasal 114 ayat (1) UU No. 35 Tahun 2009,putusan_p009.pdf,30,Devis,Angga,verified
+P009,tuntutanBulan,72.0,putusan_p009.pdf,2,Devis,Angga,verified
+P009,vonisBulan,60,putusan_p009.pdf,30,Devis,Angga,verified
+P009,dendaRupiah,1000000000,putusan_p009.pdf,30,Devis,Angga,verified
+P009,barangBukti,"1 paket sabu netto 0,45 gram, 1 buah jaket, 1 unit HP Vivo",putusan_p009.pdf,2,Devis,Angga,verified
+P009,keadaanMemberatkan,Perbuatan terdakwa bertentangan dengan program pemerintah penanggulangan narkotika,putusan_p009.pdf,29,Devis,Angga,verified
+P009,keadaanMeringankan,"Terdakwa bersikap sopan dan belum pernah dihukum sebelumnya",putusan_p009.pdf,29,Devis,Angga,verified
+P009,sourcePages,"1, 2, 3, 29, 30, 31",putusan_p009.pdf,"1, 2, 3, 29, 30, 31",Devis,Angga,verified
+
+P010,nomorPerkara,1041/Pid.Sus/2026/PN.Tng,putusan_p010.pdf,1,Devis,Angga,verified
+P010,pengadilan,Pengadilan Negeri Tangerang Kelas IA Khusus,putusan_p010.pdf,1,Devis,Angga,verified
+P010,tanggalPutusan,10/1/2026,putusan_p010.pdf,20,Devis,Angga,verified
+P010,terdakwaKode,MAI,putusan_p010.pdf,1,Devis,Angga,verified
+P010,jenisNarkotika,Ganja (Cannabis),putusan_p010.pdf,2,Devis,Angga,verified
+P010,beratBarangBuktiGram,45.3,putusan_p010.pdf,2,Devis,Angga,verified
+P010,pasalDakwaan,Pasal 111 ayat (1) UU No. 35 Tahun 2009,putusan_p010.pdf,3,Devis,Angga,verified
+P010,pasalTerbukti,Pasal 111 ayat (1) UU No. 35 Tahun 2009,putusan_p010.pdf,19,Devis,Angga,verified
+P010,tuntutanBulan,48.0,putusan_p010.pdf,2,Devis,Angga,verified
+P010,vonisBulan,36,putusan_p010.pdf,19,Devis,Angga,verified
+P010,dendaRupiah,800000000,putusan_p010.pdf,19,Devis,Angga,verified
+P010,barangBukti,"1 bungkus kertas cokelat berisi ganja netto 45,30 gram, 1 unit HP Infinix",putusan_p010.pdf,2,Devis,Angga,verified
+P010,keadaanMemberatkan,Perbuatan terdakwa tidak mendukung upaya pemerintah dalam memberantas narkotika,putusan_p010.pdf,18,Devis,Angga,verified
+P010,keadaanMeringankan,Terdakwa merasa menyesal dan berjanji tidak akan mengulangi perbuatannya,putusan_p010.pdf,18,Devis,Angga,verified
+P010,sourcePages,"1, 2, 3, 18, 19, 20",putusan_p010.pdf,"1, 2, 3, 18, 19, 20",Devis,Angga,verified
+
+P011,nomorPerkara,1049/Pid.Sus/2026/PN Tng,putusan_p011.pdf,1,Devis,Angga,verified
+P011,pengadilan,Pengadilan Negeri Tangerang Kelas IA Khusus,putusan_p011.pdf,1,Devis,Angga,verified
+P011,tanggalPutusan,9/3/2026,putusan_p011.pdf,49,Devis,Angga,verified
+P011,terdakwaKode,ASB,putusan_p011.pdf,1,Devis,Angga,verified
+P011,jenisNarkotika,Sabu & Ekstasi,putusan_p011.pdf,2,Devis,Angga,verified
+P011,beratBarangBuktiGram,22.37,putusan_p011.pdf,2,Devis,Angga,verified
+P011,pasalDakwaan,"Pasal 114 ayat (2) UU No. 35 Tahun 2009 jo UU No. 1 Tahun 2026 jo Pasal 132 ayat (1) UU No. 35 Tahun 2009",putusan_p011.pdf,4,Devis,Angga,verified
+P011,pasalTerbukti,"Pasal 114 ayat (2) UU No. 35 Tahun 2009 jo UU No. 1 Tahun 2026 jo Pasal 132 ayat (1) UU No. 35 Tahun 2009",putusan_p011.pdf,48,Devis,Angga,verified
+P011,tuntutanBulan,108.0,putusan_p011.pdf,2,Devis,Angga,verified
+P011,vonisBulan,84,putusan_p011.pdf,48,Devis,Angga,verified
+P011,dendaRupiah,1000000000,putusan_p011.pdf,48,Devis,Angga,verified
+P011,barangBukti,"3 bungkus plastik klip sabu, 4 bungkus plastik klip ekstasi, tas goodybag, 2 unit Handphone (Redmi 9C & Oppo)",putusan_p011.pdf,2,Devis,Angga,verified
+P011,keadaanMemberatkan,Perbuatan terdakwa bertentangan dengan program pemerintah dalam pemberantasan tindak pidana narkotika,putusan_p011.pdf,47,Devis,Angga,verified
+P011,keadaanMeringankan,"Terdakwa mengakui dan menyesali perbuatannya; Terdakwa belum pernah dihukum",putusan_p011.pdf,47,Devis,Angga,verified
+P011,sourcePages,"1, 2, 4, 12, 47, 48, 49",putusan_p011.pdf,"1, 2, 4, 12, 47, 48, 49",Devis,Angga,verified
+
+P012,nomorPerkara,1050/Pid.Sus/2026/PN Tng,putusan_p012.pdf,1,Devis,Angga,verified
+P012,pengadilan,Pengadilan Negeri Tangerang Kelas IA Khusus,putusan_p012.pdf,1,Devis,Angga,verified
+P012,tanggalPutusan,9/3/2026,putusan_p012.pdf,30,Devis,Angga,verified
+P012,terdakwaKode,GF,putusan_p012.pdf,1,Devis,Angga,verified
+P012,jenisNarkotika,Sabu (Metamfetamina),putusan_p012.pdf,2,Devis,Angga,verified
+P012,beratBarangBuktiGram,0.58,putusan_p012.pdf,2,Devis,Angga,verified
+P012,pasalDakwaan,"Pasal 114 ayat (1) jo Pasal 132 ayat (1) UU No. 35 Tahun 2009 ATAU Pasal 112 ayat (1) UU No. 35 Tahun 2009",putusan_p012.pdf,4,Devis,Angga,verified
+P012,pasalTerbukti,"Pasal 112 ayat (1) UU No. 35 Tahun 2009 (Dakwaan Alternatif Kedua / Pasal 609 ayat (1) huruf a UU No. 1 Tahun 2023)",putusan_p012.pdf,29,Devis,Angga,verified
+P012,tuntutanBulan,60.0,putusan_p012.pdf,2,Devis,Angga,verified
+P012,vonisBulan,42,putusan_p012.pdf,29,Devis,Angga,verified
+P012,dendaRupiah,600000000,putusan_p012.pdf,29,Devis,Angga,verified
+P012,barangBukti,"1 plastik klip sabu netto 0,58 gram, 1 dompet hitam biru, 1 unit HP REALME warna hitam",putusan_p012.pdf,2,Devis,Angga,verified
+P012,keadaanMemberatkan,Perbuatan terdakwa tidak mendukung program pemerintah dalam memberantas tindak pidana narkotika,putusan_p012.pdf,29,Devis,Angga,verified
+P012,keadaanMeringankan,"Terdakwa bersikap sopan dan berterus terang di persidangan; Terdakwa menyesali perbuatannya",putusan_p012.pdf,29,Devis,Angga,verified
+P012,sourcePages,"1, 2, 4, 7, 29, 30",putusan_p012.pdf,"1, 2, 4, 7, 29, 30",Devis,Angga,verified
+
+P013,nomorPerkara,1062/Pid.Sus/2026/PN Tng,putusan_p013.pdf,1,Devis,Angga,verified
+P013,pengadilan,Pengadilan Negeri Tangerang Kelas IA Khusus,putusan_p013.pdf,1,Devis,Angga,verified
+P013,tanggalPutusan,9/8/2026,putusan_p013.pdf,42,Devis,Angga,verified
+P013,terdakwaKode,"Y & MIM",putusan_p013.pdf,1,Devis,Angga,verified
+P013,jenisNarkotika,Sabu (Metamfetamina),putusan_p013.pdf,5,Devis,Angga,verified
+P013,beratBarangBuktiGram,9.32,putusan_p013.pdf,5,Devis,Angga,verified
+P013,pasalDakwaan,"Pasal 114 ayat (2) jo Pasal 132 ayat (1) UU No. 35 Tahun 2009 ATAU Pasal 112 ayat (2) jo Pasal 132 ayat (1) UU No. 35 Tahun 2009",putusan_p013.pdf,9,Devis,Angga,verified
+P013,pasalTerbukti,"Pasal 610 ayat (2) huruf a UU No. 1 Tahun 2023 jo Pasal 132 ayat (1) UU No. 35 Tahun 2009 jo UU No. 1 Tahun 2026",putusan_p013.pdf,41,Devis,Angga,verified
+P013,tuntutanBulan,120.0,putusan_p013.pdf,5,Devis,Angga,verified
+P013,vonisBulan,108,putusan_p013.pdf,41,Devis,Angga,verified
+P013,dendaRupiah,1500000000,putusan_p013.pdf,41,Devis,Angga,verified
+P013,barangBukti,"Paket sabu, HP iPhone 13, dan alat komunikasi terkait penyaluran narkotika",putusan_p013.pdf,5,Devis,Angga,verified
+P013,keadaanMemberatkan,"Perbuatan para terdakwa meresahkan masyarakat; Tidak mendukung program pemerintah dalam pemberantasan narkotika",putusan_p013.pdf,40,Devis,Angga,verified
+P013,keadaanMeringankan,"Para terdakwa bersikap sopan dalam persidangan; Para terdakwa belum pernah dihukum",putusan_p013.pdf,40,Devis,Angga,verified
+P013,sourcePages,"1, 5, 9, 40, 41, 42",putusan_p013.pdf,"1, 5, 9, 40, 41, 42",Devis,Angga,verified
+
+P014,nomorPerkara,1063/Pid.Sus/2026/PN Tng,putusan_p014.pdf,1,Devis,Angga,verified
+P014,pengadilan,Pengadilan Negeri Tangerang Kelas IA Khusus,putusan_p014.pdf,1,Devis,Angga,verified
+P014,tanggalPutusan,9/8/2026,putusan_p014.pdf,56,Devis,Angga,verified
+P014,terdakwaKode,"AS & WK",putusan_p014.pdf,1,Devis,Angga,verified
+P014,jenisNarkotika,Sabu (Metamfetamina),putusan_p014.pdf,6,Devis,Angga,verified
+P014,beratBarangBuktiGram,1003.0,putusan_p014.pdf,6,Devis,Angga,verified
+P014,pasalDakwaan,"Pasal 114 ayat (2) jo Pasal 132 ayat (1) UU No. 35 Tahun 2009 ATAU Pasal 112 ayat (2) jo Pasal 132 ayat (1) UU No. 35 Tahun 2009",putusan_p014.pdf,13,Devis,Angga,verified
+P014,pasalTerbukti,"Pasal 610 ayat (2) huruf a UU No. 1 Tahun 2023 jo Pasal 132 ayat (1) UU No. 35 Tahun 2009 jo UU No. 1 Tahun 2026",putusan_p014.pdf,55,Devis,Angga,verified
+P014,tuntutanBulan,144.0,putusan_p014.pdf,6,Devis,Angga,verified
+P014,vonisBulan,108,putusan_p014.pdf,55,Devis,Angga,verified
+P014,dendaRupiah,1500000000,putusan_p014.pdf,55,Devis,Angga,verified
+P014,barangBukti,"1 bungkus plastik biru berisikan kantong sabu imbalan/impor dari Malaysia, HP dan paspor",putusan_p014.pdf,6,Devis,Angga,verified
+P014,keadaanMemberatkan,"Perbuatan para terdakwa meresahkan masyarakat; Tidak mendukung program pemerintah dalam pemberantasan narkotika",putusan_p014.pdf,54,Devis,Angga,verified
+P014,keadaanMeringankan,"Para terdakwa bersikap sopan dalam persidangan; Para terdakwa belum pernah dihukum",putusan_p014.pdf,54,Devis,Angga,verified
+P014,sourcePages,"1, 6, 13, 53, 54, 55, 56",putusan_p014.pdf,"1, 6, 13, 53, 54, 55, 56",Devis,Angga,verified
+
+P015,nomorPerkara,788/Pid.Sus/2026/PN Tng,putusan_788_pid.sus_2026_pn_tng_20261108153346.pdf,1,Angga,Devis,verified
+P015,pengadilan,Pengadilan Negeri Tangerang,putusan_788_pid.sus_2026_pn_tng_20261108153346.pdf,1,Angga,Devis,verified
+P015,tanggalPutusan,2026-08-06,putusan_788_pid.sus_2026_pn_tng_20261108153346.pdf,28,Angga,Devis,verified
+P015,terdakwaKode,NU015,putusan_788_pid.sus_2026_pn_tng_20261108153346.pdf,1,Angga,Devis,verified
+P015,jenisNarkotika,Sabu,putusan_788_pid.sus_2026_pn_tng_20261108153346.pdf,3,Angga,Devis,verified
+P015,beratBarangBuktiGram,26.7043,putusan_788_pid.sus_2026_pn_tng_20261108153346.pdf,3,Angga,Devis,verified
+P015,pasalDakwaan,Pasal 114 ayat (2) UU No. 35 Tahun 2009,putusan_788_pid.sus_2026_pn_tng_20261108153346.pdf,2,Angga,Devis,verified
+P015,pasalTerbukti,Pasal 114 ayat (2) UU No. 35 Tahun 2009,putusan_788_pid.sus_2026_pn_tng_20261108153346.pdf,27,Angga,Devis,verified
+P015,tuntutanBulan,132,putusan_788_pid.sus_2026_pn_tng_20261108153346.pdf,2,Angga,Devis,verified
+P015,vonisBulan,108,putusan_788_pid.sus_2026_pn_tng_20261108153346.pdf,26,Angga,Devis,verified
+P015,dendaRupiah,1000000000,putusan_788_pid.sus_2026_pn_tng_20261108153346.pdf,26,Angga,Devis,verified
+P015,barangBukti,"1 kotak kaleng bekas rokok Dji Sam Soe Refill berisi 1 bungkus plastik klip sabu (brutto 29,56 gram, netto 26,7043 gram); 1 timbangan elektrik; 2 wadah plastik kecil; 1 lembar uang Rp2.000 dimodif; 2 korek api gas; 1 pack amplop B'GAIN; 1 unit HP Infinix; 1 unit HP Oppo",putusan_788_pid.sus_2026_pn_tng_20261108153346.pdf,3,Angga,Devis,verified
+P015,keadaanMemberatkan,"Perbuatan bertentangan dengan program pemerintah; terdakwa sudah pernah dihukum",putusan_788_pid.sus_2026_pn_tng_20261108153346.pdf,26,Angga,Devis,verified
+P015,keadaanMeringankan,"Terdakwa mengaku bersalah dan menyesal; berjanji tidak mengulangi",putusan_788_pid.sus_2026_pn_tng_20261108153346.pdf,26,Angga,Devis,verified
+P015,sourcePages,"nomorPerkara:1; pengadilan:1; tanggalPutusan:28; terdakwaKode:1; jenisNarkotika:3; beratBarangBuktiGram:3; pasalDakwaan:2; pasalTerbukti:27; tuntutanBulan:2; vonisBulan:26; dendaRupiah:26; barangBukti:3; keadaanMemberatkan:26; keadaanMeringankan:26",putusan_788_pid.sus_2026_pn_tng_20261108153346.pdf,1,Angga,Devis,verified
+
+P016,nomorPerkara,1096/Pid.Sus/2026/PN Tng,putusan_p016.pdf,1,Devis,Angga,verified
+P016,pengadilan,Pengadilan Negeri Tangerang,putusan_p016.pdf,1,Devis,Angga,verified
+P016,tanggalPutusan,9/3/2026,putusan_p016.pdf,30,Devis,Angga,verified
+P016,terdakwaKode,"YT & MRM",putusan_p016.pdf,1,Devis,Angga,verified
+P016,jenisNarkotika,Sabu (Metamfetamina),putusan_p016.pdf,2,Devis,Angga,verified
+P016,beratBarangBuktiGram,1.3553,putusan_p016.pdf,2,Devis,Angga,verified
+P016,pasalDakwaan,"Pasal 114 ayat (1) jo Pasal 132 ayat (1) UU No. 35 Tahun 2009 jo UU No. 1 Tahun 2026 ATAU Pasal 609 ayat (1) huruf a UU No. 1 Tahun 2023 jo Pasal 132 ayat (1)",putusan_p016.pdf,4,Devis,Angga,verified
+P016,pasalTerbukti,"Pasal 114 ayat (1) jo Pasal 132 ayat (1) UU No. 35 Tahun 2009 jo UU No. 1 Tahun 2026",putusan_p016.pdf,28,Devis,Angga,verified
+P016,tuntutanBulan,58.0,putusan_p016.pdf,3,Devis,Angga,verified
+P016,vonisBulan,54,putusan_p016.pdf,29,Devis,Angga,verified
+P016,dendaRupiah,1000000000,putusan_p016.pdf,29,Devis,Angga,verified
+P016,barangBukti,"HP Realme C75, 3 bungkus plastik klip sabu (netto 1,3553 gram), botol aqua & kardus coklat, HP Oppo A16, HP Realme XT, motor Yamaha N-Max",putusan_p016.pdf,2,Devis,Angga,verified
+P016,keadaanMemberatkan,Perbuatan para terdakwa tidak menunjang program pemerintah dalam rangka memberantas penyalahgunaan narkotika,putusan_p016.pdf,27,Devis,Angga,verified
+P016,keadaanMeringankan,"Para terdakwa berlaku sopan dan berterus terang; Menyesali perbuatannya dan berjanji tidak mengulangi; Belum pernah dihukum",putusan_p016.pdf,27,Devis,Angga,verified
+P016,sourcePages,"1, 2, 3, 4, 27, 28, 29, 30",putusan_p016.pdf,"1, 2, 3, 4, 27, 28, 29, 30",Devis,Angga,verified
+
+P017,nomorPerkara,1101/Pid.Sus/2026/PN Tng,putusan_p017.pdf,1,Devis,Angga,verified
+P017,pengadilan,Pengadilan Negeri Tangerang,putusan_p017.pdf,1,Devis,Angga,verified
+P017,tanggalPutusan,9/28/2026,putusan_p017.pdf,33,Devis,Angga,verified
+P017,terdakwaKode,EP,putusan_p017.pdf,1,Devis,Angga,verified
+P017,jenisNarkotika,Sabu (Metamfetamina),putusan_p017.pdf,2,Devis,Angga,verified
+P017,beratBarangBuktiGram,4254.0,putusan_p017.pdf,2,Devis,Angga,verified
+P017,pasalDakwaan,"Pasal 114 ayat (2) jo Pasal 132 ayat (1) UU No. 35 Tahun 2009 jo UU No. 1 Tahun 2023 jo UU No. 1 Tahun 2026",putusan_p017.pdf,5,Devis,Angga,verified
+P017,pasalTerbukti,"Pasal 114 ayat (2) jo Pasal 132 ayat (1) UU No. 35 Tahun 2009 jo UU No. 1 Tahun 2023 jo UU No. 1 Tahun 2026 (Permufakatan jahat menyerahkan Narkotika Gol I lebih dari 5 gram)",putusan_p017.pdf,31,Devis,Angga,verified
+P017,tuntutanBulan,228.0,putusan_p017.pdf,3,Devis,Angga,verified
+P017,vonisBulan,216,putusan_p017.pdf,32,Devis,Angga,verified
+P017,dendaRupiah,2000000000,putusan_p017.pdf,32,Devis,Angga,verified
+P017,barangBukti,"Tas belanja hitam berisi 4 bungkus plastik hijau sabu (total 4.254 gram), HP Oppo A3X, Mobil Toyota Kijang Innova B 2394 TRA berikut STNK",putusan_p017.pdf,2,Devis,Angga,verified
+P017,keadaanMemberatkan,"Tidak mendukung program pemerintah memberantas narkotika; Merusak kesehatan dan mental masyarakat/generasi muda; Meresahkan masyarakat; Residivis",putusan_p017.pdf,30,Devis,Angga,verified
+P017,keadaanMeringankan,"Terdakwa bersikap sopan di persidangan; Terdakwa mengakui perbuatannya dan mengakui kesalahannya",putusan_p017.pdf,30,Devis,Angga,verified
+P017,sourcePages,"1, 2, 3, 5, 30, 31, 32, 33",putusan_p017.pdf,"1, 2, 3, 5, 30, 31, 32, 33",Devis,Angga,verified
+
+P018,nomorPerkara,1109/Pid.Sus/2026/PN Tng,putusan_p018.pdf,1,Devis,Angga,verified
+P018,pengadilan,Pengadilan Negeri Tangerang,putusan_p018.pdf,1,Devis,Angga,verified
+P018,tanggalPutusan,9/7/2026,putusan_p018.pdf,25,Devis,Angga,verified
+P018,terdakwaKode,JS,putusan_p018.pdf,1,Devis,Angga,verified
+P018,jenisNarkotika,Etomidate (Golongan II),putusan_p018.pdf,2,Devis,Angga,verified
+P018,beratBarangBuktiGram,52.46,putusan_p018.pdf,2,Devis,Angga,verified
+P018,pasalDakwaan,"Pasal 609 ayat (2) UU No. 35/2009 jo. UU No. 1/2026 / Pasal 119 ayat (2)",putusan_p018.pdf,4,Devis,Angga,verified
+P018,pasalTerbukti,"Pasal 609 ayat (2) huruf b UU No. 1 Tahun 2023 jo. UU No. 1 Tahun 2026",putusan_p018.pdf,23,Devis,Angga,verified
+P018,tuntutanBulan,78.0,putusan_p018.pdf,3,Devis,Angga,verified
+P018,vonisBulan,78,putusan_p018.pdf,24,Devis,Angga,verified
+P018,dendaRupiah,1000000000,putusan_p018.pdf,24,Devis,Angga,verified
+P018,barangBukti,"8 cartridge vape (6 berisi cairan Etomidate berat brutto 52.46 gram, 2 kosong), 1 unit HP iPhone 13 Pro Max",putusan_p018.pdf,2,Devis,Angga,verified
+P018,keadaanMemberatkan,Perbuatan Terdakwa bertentangan dengan program pemerintah dalam memberantas tindak pidana narkotika,putusan_p018.pdf,22,Devis,Angga,verified
+P018,keadaanMeringankan,"Terdakwa bersikap sopan, mengakui perbuatannya, dan belum pernah dihukum",putusan_p018.pdf,22,Devis,Angga,verified
+P018,sourcePages,"1, 2, 3, 4, 22, 23, 24, 25",putusan_p018.pdf,"1, 2, 3, 4, 22, 23, 24, 25",Devis,Angga,verified
+
+P019,nomorPerkara,1111/Pid.Sus/2026/PN.Tng,putusan_p019.pdf,1,Devis,Angga,verified
+P019,pengadilan,Pengadilan Negeri Tangerang,putusan_p019.pdf,1,Devis,Angga,verified
+P019,tanggalPutusan,9/3/2026,putusan_p019.pdf,33,Devis,Angga,verified
+P019,terdakwaKode,nan,putusan_p019.pdf,1,Devis,Angga,verified
+P019,jenisNarkotika,Sabu-sabu / Metamfetamina (Golongan I),putusan_p019.pdf,2,Devis,Angga,verified
+P019,beratBarangBuktiGram,3.67,putusan_p019.pdf,2,Devis,Angga,verified
+P019,pasalDakwaan,"Pasal 114 ayat (1) UU No. 35/2009 jo. Lampiran II UU No. 1/2026",putusan_p019.pdf,4,Devis,Angga,verified
+P019,pasalTerbukti,"Pasal 114 ayat (1) UU No. 35/2009 jo. Lampiran II UU No. 1/2026",putusan_p019.pdf,31,Devis,Angga,verified
+P019,tuntutanBulan,156.0,putusan_p019.pdf,3,Devis,Angga,verified
+P019,vonisBulan,132,putusan_p019.pdf,32,Devis,Angga,verified
+P019,dendaRupiah,550000000,putusan_p019.pdf,32,Devis,Angga,verified
+P019,barangBukti,"5 plastik klip berisi sabu-sabu berat bruto 3.67 gram (netto 2.2722 gram), 1 unit HP Vivo Y28, 1 timbangan digital",putusan_p019.pdf,2,Devis,Angga,verified
+P019,keadaanMemberatkan,Perbuatan Terdakwa tidak mendukung program pemerintah dalam memberantas peredaran gelap narkotika,putusan_p019.pdf,30,Devis,Angga,verified
+P019,keadaanMeringankan,"Terdakwa bersikap sopan, menyesali perbuatannya, dan berjanji tidak akan mengulanginya",putusan_p019.pdf,30,Devis,Angga,verified
+P019,sourcePages,"1, 2, 3, 4, 30, 31, 32, 33",putusan_p019.pdf,"1, 2, 3, 4, 30, 31, 32, 33",Devis,Angga,verified
+
+P020,nomorPerkara,1115/Pid.Sus/2026/PN Tng,putusan_p020.pdf,1,Devis,Angga,verified
+P020,pengadilan,Pengadilan Negeri Tangerang,putusan_p020.pdf,1,Devis,Angga,verified
+P020,tanggalPutusan,9/3/2026,putusan_p020.pdf,51,Devis,Angga,verified
+P020,terdakwaKode,JW,putusan_p020.pdf,1,Devis,Angga,verified
+P020,jenisNarkotika,Etomidate (Golongan II),putusan_p020.pdf,3,Devis,Angga,verified
+P020,beratBarangBuktiGram,1782.8,putusan_p020.pdf,3,Devis,Angga,verified
+P020,pasalDakwaan,"Pasal 119 ayat (2) jo. Pasal 132 UU No. 35/2009 jo. Lampiran II UU No. 1/2026",putusan_p020.pdf,6,Devis,Angga,verified
+P020,pasalTerbukti,"Pasal 119 ayat (2) jo. Pasal 132 UU No. 35/2009 jo. Lampiran II UU No. 1/2026",putusan_p020.pdf,49,Devis,Angga,verified
+P020,tuntutanBulan,44.0,putusan_p020.pdf,4,Devis,Angga,verified
+P020,vonisBulan,44,putusan_p020.pdf,50,Devis,Angga,verified
+P020,dendaRupiah,500000000,putusan_p020.pdf,50,Devis,Angga,verified
+P020,barangBukti,"207 cartridge vape berisi cairan etomidate (brutto 1.782,8 gram / netto 346.1775 gram), 1 unit HP iPhone 15 Pro Max",putusan_p020.pdf,3,Devis,Angga,verified
+P020,keadaanMemberatkan,Perbuatan Terdakwa meresahkan masyarakat dan tidak mendukung program pemerintah dalam memberantas narkotika,putusan_p020.pdf,48,Devis,Angga,verified
+P020,keadaanMeringankan,"Terdakwa berlaku sopan di persidangan, menyesali perbuatannya, dan belum pernah dihukum",putusan_p020.pdf,48,Devis,Angga,verified
+P020,sourcePages,"1, 3, 4, 6, 48, 49, 50, 51",putusan_p020.pdf,"1, 3, 4, 6, 48, 49, 50, 51",Devis,Angga,verified
+
+P021,nomorPerkara,1118/Pid.Sus/2026/PN Tng,putusan_p021.pdf,1,Devis,Angga,verified
+P021,pengadilan,Pengadilan Negeri Tangerang,putusan_p021.pdf,1,Devis,Angga,verified
+P021,tanggalPutusan,9/10/2026,putusan_p021.pdf,27,Devis,Angga,verified
+P021,terdakwaKode,DE,putusan_p021.pdf,1,Devis,Angga,verified
+P021,jenisNarkotika,Sabu (Methampetamine),putusan_p021.pdf,2,Devis,Angga,verified
+P021,beratBarangBuktiGram,2.9613,putusan_p021.pdf,2,Devis,Angga,verified
+P021,pasalDakwaan,"Pasal 114 ayat (1) UU No. 35 Tahun 2009 jo. UU No. 1 Tahun 2026 ATAU Pasal 609 ayat (1) huruf a KUHP jo. UU No. 1 Tahun 2026",putusan_p021.pdf,3,Devis,Angga,verified
+P021,pasalTerbukti,"Pasal 114 ayat (1) UU No. 35 Tahun 2009 jo. UU No. 1 Tahun 2026",putusan_p021.pdf,25,Devis,Angga,verified
+P021,tuntutanBulan,66.0,putusan_p021.pdf,2,Devis,Angga,verified
+P021,vonisBulan,60,putusan_p021.pdf,26,Devis,Angga,verified
+P021,dendaRupiah,1000000000,putusan_p021.pdf,26,Devis,Angga,verified
+P021,barangBukti,"16 bungkus plastik klip bening berisi sabu netto 2.9613 gram; 1 timbangan digital silver; 2 pak plastik klip kosong; 1 HP Redmi biru; 1 brankas bentuk buku",putusan_p021.pdf,2,Devis,Angga,verified
+P021,keadaanMemberatkan,Perbuatan terdakwa bertentangan dengan program pemerintah dalam pemberantasan narkoba.,putusan_p021.pdf,24,Devis,Angga,verified
+P021,keadaanMeringankan,"Terdakwa mengakui perbuatannya; Terdakwa belum pernah dihukum.",putusan_p021.pdf,24,Devis,Angga,verified
+P021,sourcePages,"1, 2, 3, 24, 25, 26, 27",putusan_p021.pdf,"1, 2, 3, 24, 25, 26, 27",Devis,Angga,verified
+
+P022,nomorPerkara,1142/Pid.Sus/2026/PN Tng,putusan_p022.pdf,1,Devis,Angga,verified
+P022,pengadilan,Pengadilan Negeri Tangerang,putusan_p022.pdf,1,Devis,Angga,verified
+P022,tanggalPutusan,9/21/2026,putusan_p022.pdf,39,Devis,Angga,verified
+P022,terdakwaKode,FY,putusan_p022.pdf,1,Devis,Angga,verified
+P022,jenisNarkotika,"Tembakau & Pasta Sintetis (5-Fluoro ADB)",putusan_p022.pdf,2,Devis,Angga,verified
+P022,beratBarangBuktiGram,2306.4896,putusan_p022.pdf,2,Devis,Angga,verified
+P022,pasalDakwaan,"Pasal 114 ayat (2) UU No. 35 Tahun 2009 jo. UU No. 1 Tahun 2026 jo. Pasal 132 ayat (1) UU No. 35 Tahun 2009 ATAU Pasal 609 ayat (2) KUHP jo. UU No. 1 Tahun 2026 jo. Pasal 132 ayat (1) UU No. 35 Tahun 2009",putusan_p022.pdf,4,Devis,Angga,verified
+P022,pasalTerbukti,"Pasal 114 ayat (2) UU No. 35 Tahun 2009 jo. UU No. 1 Tahun 2026 jo. Pasal 132 ayat (1) UU No. 35 Tahun 2009",putusan_p022.pdf,37,Devis,Angga,verified
+P022,tuntutanBulan,132.0,putusan_p022.pdf,3,Devis,Angga,verified
+P022,vonisBulan,108,putusan_p022.pdf,38,Devis,Angga,verified
+P022,dendaRupiah,2000000000,putusan_p022.pdf,38,Devis,Angga,verified
+P022,barangBukti,"3 bungkus rokok mild berisi tembakau sintetis netto 4.2601g, 4.0276g, 4.3119g; 1 bungkus plastik merah berisi tembakau sintetis netto 2293.89g; peralatan racik & timbangan; HP Samsung A73, Realme U1, Samsung A31, iPhone XR; Motor Mio Soul & Honda Beat 2025",putusan_p022.pdf,2,Devis,Angga,verified
+P022,keadaanMemberatkan,"Perbuatan Terdakwa meresahkan masyarakat; Perbuatan Terdakwa tidak mendukung program pemerintah dalam pemberantasan narkotika dan dapat merusak moral generasi muda.",putusan_p022.pdf,36,Devis,Angga,verified
+P022,keadaanMeringankan,"Terdakwa mengakui terus terang perbuatannya sehingga memperlancar persidangan; Terdakwa belum pernah dihukum.",putusan_p022.pdf,36,Devis,Angga,verified
+P022,sourcePages,"1, 2, 3, 4, 36, 37, 38, 39",putusan_p022.pdf,"1, 2, 3, 4, 36, 37, 38, 39",Devis,Angga,verified
+
+P023,nomorPerkara,1143/Pid.Sus/2026/PN Tng,putusan_p023.pdf,1,Devis,Angga,verified
+P023,pengadilan,Pengadilan Negeri Tangerang,putusan_p023.pdf,1,Devis,Angga,verified
+P023,tanggalPutusan,9/16/2026,putusan_p023.pdf,31,Devis,Angga,verified
+P023,terdakwaKode,"FA & MK",putusan_p023.pdf,1,Devis,Angga,verified
+P023,jenisNarkotika,"Tembakau & Pasta Sintetis (5-Fluoro ADB)",putusan_p023.pdf,2,Devis,Angga,verified
+P023,beratBarangBuktiGram,2306.4896,putusan_p023.pdf,2,Devis,Angga,verified
+P023,pasalDakwaan,"Pasal 114 ayat (2) UU No. 35 Tahun 2009 jo. UU No. 1 Tahun 2026 jo. Pasal 132 ayat (1) UU No. 35 Tahun 2009 ATAU Pasal 609 ayat (2) huruf a KUHP jo. UU No. 1 Tahun 2026 jo. Pasal 132 ayat (1) UU No. 35 Tahun 2009",putusan_p023.pdf,4,Devis,Angga,verified
+P023,pasalTerbukti,"Pasal 114 ayat (2) UU No. 35 Tahun 2009 jo. UU No. 1 Tahun 2026 jo. Pasal 132 ayat (1) UU No. 35 Tahun 2009",putusan_p023.pdf,29,Devis,Angga,verified
+P023,tuntutanBulan,132.0,putusan_p023.pdf,3,Devis,Angga,verified
+P023,vonisBulan,108,putusan_p023.pdf,30,Devis,Angga,verified
+P023,dendaRupiah,2000000000,putusan_p023.pdf,30,Devis,Angga,verified
+P023,barangBukti,"3 bungkus rokok mild berisi tembakau sintetis netto 4.2601g, 4.0276g, 4.3119g; 1 bungkus plastik merah berisi tembakau sintetis netto 2293.89g; peralatan laboratorium/racik; Motor Mio Soul & Honda Beat 2025; HP Samsung A73, Realme U1, Samsung A31",putusan_p023.pdf,2,Devis,Angga,verified
+P023,keadaanMemberatkan,"Perbuatan Para Terdakwa meresahkan masyarakat; Perbuatan Para Terdakwa tidak mendukung program pemerintah dalam pemberantasan narkotika dan dapat merusak moral generasi muda.",putusan_p023.pdf,28,Devis,Angga,verified
+P023,keadaanMeringankan,"Para Terdakwa mengakui terus terang perbuatannya sehingga memperlancar persidangan; Para Terdakwa belum pernah dihukum.",putusan_p023.pdf,28,Devis,Angga,verified
+P023,sourcePages,"1, 2, 3, 4, 28, 29, 30, 31",putusan_p023.pdf,"1, 2, 3, 4, 28, 29, 30, 31",Devis,Angga,verified
+
+P024,nomorPerkara,1149/Pid.Sus/2026/PN.Tng.,putusan_p024.pdf,1,Devis,Angga,verified
+P024,pengadilan,Pengadilan Negeri Tangerang,putusan_p024.pdf,1,Devis,Angga,verified
+P024,tanggalPutusan,9/24/2026,putusan_p024.pdf,20,Devis,Angga,verified
+P024,terdakwaKode,BS,putusan_p024.pdf,1,Devis,Angga,verified
+P024,jenisNarkotika,Sabu (Metamfetamina),putusan_p024.pdf,2,Devis,Angga,verified
+P024,beratBarangBuktiGram,0.5444,putusan_p024.pdf,2,Devis,Angga,verified
+P024,pasalDakwaan,"Pasal 114 ayat (1) UU No. 35 Tahun 2009 jo. UU No. 1 Tahun 2026 ATAU Pasal 609 ayat (1) KUHP jo. UU No. 1 Tahun 2026",putusan_p024.pdf,3,Devis,Angga,verified
+P024,pasalTerbukti,"Pasal 114 ayat (1) UU No. 35 Tahun 2009 jo. UU No. 1 Tahun 2026",putusan_p024.pdf,18,Devis,Angga,verified
+P024,tuntutanBulan,51.0,putusan_p024.pdf,2,Devis,Angga,verified
+P024,vonisBulan,48,putusan_p024.pdf,19,Devis,Angga,verified
+P024,dendaRupiah,1000000000,putusan_p024.pdf,19,Devis,Angga,verified
+P024,barangBukti,"1 bungkus plastik klip berisi kristal putih netto 0.5444 gram; 1 timbangan digital; 1 HP Samsung hitam; 1 tas selempang hitam; Uang tunai Rp650.000,00",putusan_p024.pdf,2,Devis,Angga,verified
+P024,keadaanMemberatkan,"Perbuatan Terdakwa tidak mendukung program pemerintah dalam pemberantasan peredaran gelap narkotika; Perbuatan Terdakwa berpotensi merusak kesehatan dan masa depan generasi bangsa.",putusan_p024.pdf,17,Devis,Angga,verified
+P024,keadaanMeringankan,"Terdakwa bersikap sopan selama persidangan; Terdakwa menyesali perbuatannya dan berjanji tidak akan mengulanginya; Terdakwa masih berusia muda.",putusan_p024.pdf,17,Devis,Angga,verified
+P024,sourcePages,"1, 2, 3, 17, 18, 19, 20",putusan_p024.pdf,"1, 2, 3, 17, 18, 19, 20",Devis,Angga,verified
+
+P025,nomorPerkara,1154/Pid.Sus/2026/PN.Tng.,putusan_p025.pdf,1,Devis,Angga,verified
+P025,pengadilan,Pengadilan Negeri Tangerang,putusan_p025.pdf,1,Devis,Angga,verified
+P025,tanggalPutusan,9/24/2026,putusan_p025.pdf,17,Devis,Angga,verified
+P025,terdakwaKode,AS,putusan_p025.pdf,1,Devis,Angga,verified
+P025,jenisNarkotika,Sabu (Metamfetamina),putusan_p025.pdf,2,Devis,Angga,verified
+P025,beratBarangBuktiGram,6.4666,putusan_p025.pdf,2,Devis,Angga,verified
+P025,pasalDakwaan,"Pasal 114 ayat (2) UU No. 35 Tahun 2009 jo. UU No. 1 Tahun 2026 ATAU Pasal 609 ayat (2) huruf a KUHP jo. UU No. 1 Tahun 2026",putusan_p025.pdf,3,Devis,Angga,verified
+P025,pasalTerbukti,"Pasal 114 ayat (2) UU No. 35 Tahun 2009 jo. UU No. 1 Tahun 2026",putusan_p025.pdf,15,Devis,Angga,verified
+P025,tuntutanBulan,72.0,putusan_p025.pdf,2,Devis,Angga,verified
+P025,vonisBulan,72,putusan_p025.pdf,16,Devis,Angga,verified
+P025,dendaRupiah,2000000000,putusan_p025.pdf,16,Devis,Angga,verified
+P025,barangBukti,"1 bungkus plastik klip berisikan sabu dibungkus kemasan oat gandum kurma netto 6.4666 gram; 1 timbangan digital hitam; 1 HP iPhone 15 hitam",putusan_p025.pdf,2,Devis,Angga,verified
+P025,keadaanMemberatkan,"Perbuatan Terdakwa meresahkan masyarakat dan tidak mendukung program pemerintah dalam pemberantasan narkotika.",putusan_p025.pdf,14,Devis,Angga,verified
+P025,keadaanMeringankan,"Terdakwa mengakui terus terang perbuatannya dan belum pernah dihukum.",putusan_p025.pdf,14,Devis,Angga,verified
+P025,sourcePages,"1, 2, 3, 14, 15, 16, 17",putusan_p025.pdf,"1, 2, 3, 14, 15, 16, 17",Devis,Angga,verified
+
+P026,nomorPerkara,1157/Pid.Sus/2026/PN.Tng,putusan_1157_pid.sus_2026_pn_tng_20261029161031.pdf,1,Angga,Devis,verified
+P026,pengadilan,Pengadilan Negeri Tangerang Kelas IA Khusus,putusan_1157_pid.sus_2026_pn_tng_20261029161031.pdf,1,Angga,Devis,verified
+P026,tanggalPutusan,2026-09-17,putusan_1157_pid.sus_2026_pn_tng_20261029161031.pdf,35,Angga,Devis,verified
+P026,terdakwaKode,MZ026-HS026,putusan_1157_pid.sus_2026_pn_tng_20261029161031.pdf,1,Angga,Devis,verified
+P026,jenisNarkotika,Sabu,putusan_1157_pid.sus_2026_pn_tng_20261029161031.pdf,3,Angga,Devis,verified
+P026,beratBarangBuktiGram,1.6243,putusan_1157_pid.sus_2026_pn_tng_20261029161031.pdf,3,Angga,Devis,verified
+P026,pasalDakwaan,Pasal 114 Ayat (1) jo Pasal 132 Ayat (1) UU No. 35 Tahun 2009,putusan_1157_pid.sus_2026_pn_tng_20261029161031.pdf,8,Angga,Devis,verified
+P026,pasalTerbukti,Pasal 114 Ayat (1) jo Pasal 132 Ayat (1) UU No. 35 Tahun 2009,putusan_1157_pid.sus_2026_pn_tng_20261029161031.pdf,34,Angga,Devis,verified
+P026,tuntutanBulan,120,putusan_1157_pid.sus_2026_pn_tng_20261029161031.pdf,3,Angga,Devis,verified
+P026,vonisBulan,72,putusan_1157_pid.sus_2026_pn_tng_20261029161031.pdf,34,Angga,Devis,verified
+P026,dendaRupiah,900000000,putusan_1157_pid.sus_2026_pn_tng_20261029161031.pdf,34,Angga,Devis,verified
+P026,barangBukti,"14 bungkus plastik klip berisi sabu (sisa uji lab netto 1,6243 gram); 1 pack plastik klip; 1 lakban double tip; 1 timbangan digital; 1 dompet perempuan; uang tunai Rp200.000; 1 unit HP Oppo",putusan_1157_pid.sus_2026_pn_tng_20261029161031.pdf,3,Angga,Devis,verified
+P026,keadaanMemberatkan,"Perbuatan sangat bertentangan dengan program pemerintah; kejahatan narkotika sebagai extra ordinary crime",putusan_1157_pid.sus_2026_pn_tng_20261029161031.pdf,32,Angga,Devis,verified
+P026,keadaanMeringankan,"Para terdakwa masih muda; menyesal; berjanji tidak mengulangi; sopan; belum pernah dihukum",putusan_1157_pid.sus_2026_pn_tng_20261029161031.pdf,32,Angga,Devis,verified
+P026,sourcePages,"1, 3, 8, 32, 34, 35",putusan_1157_pid.sus_2026_pn_tng_20261029161031.pdf,"1, 3, 8, 32, 34, 35",Angga,Devis,verified
+
+P027,nomorPerkara,1158/Pid.Sus/2026/PN Tng,putusan_1158_pid.sus_2026_pn_tng_20261031204412.pdf,1,Angga,Devis,verified
+P027,pengadilan,Pengadilan Negeri Tangerang,putusan_1158_pid.sus_2026_pn_tng_20261031204412.pdf,1,Angga,Devis,verified
+P027,tanggalPutusan,2026-09-08,putusan_1158_pid.sus_2026_pn_tng_20261031204412.pdf,32,Angga,Devis,verified
+P027,terdakwaKode,MN027,putusan_1158_pid.sus_2026_pn_tng_20261031204412.pdf,1,Angga,Devis,verified
+P027,jenisNarkotika,Sabu,putusan_1158_pid.sus_2026_pn_tng_20261031204412.pdf,3,Angga,Devis,verified
+P027,beratBarangBuktiGram,5986.8,putusan_1158_pid.sus_2026_pn_tng_20261031204412.pdf,3,Angga,Devis,verified
+P027,pasalDakwaan,Pasal 114 Ayat (2) Jo. Pasal 132 Ayat (1) UU No. 35 Tahun 2009,putusan_1158_pid.sus_2026_pn_tng_20261031204412.pdf,8,Angga,Devis,verified
+P027,pasalTerbukti,Pasal 114 Ayat (2) Jo. Pasal 132 Ayat (1) UU No. 35 Tahun 2009,putusan_1158_pid.sus_2026_pn_tng_20261031204412.pdf,30,Angga,Devis,verified
+P027,tuntutanBulan,168,putusan_1158_pid.sus_2026_pn_tng_20261031204412.pdf,2,Angga,Devis,verified
+P027,vonisBulan,114,putusan_1158_pid.sus_2026_pn_tng_20261031204412.pdf,30,Angga,Devis,verified
+P027,dendaRupiah,500000000,putusan_1158_pid.sus_2026_pn_tng_20261031204412.pdf,30,Angga,Devis,verified
+P027,barangBukti,"Narkotika Golongan I jenis sabu (netto 5.986,8 gram); 1 unit HP iPhone 17 Pro; 4 lembar boarding pass; 1 koper Polo Sonic; 6 celana panjang; 2 tag bagasi; 11 lembar uang tunai Rp420.000; 1 lembar KTP",putusan_1158_pid.sus_2026_pn_tng_20261031204412.pdf,3,Angga,Devis,verified
+P027,keadaanMemberatkan,"Perbuatan meresahkan masyarakat; tidak mendukung program pemerintah dalam pemberantasan peredaran gelap narkotika",putusan_1158_pid.sus_2026_pn_tng_20261031204412.pdf,29,Angga,Devis,verified
+P027,keadaanMeringankan,"Terdakwa menyesali perbuatannya; mengakui terus terang perbuatannya",putusan_1158_pid.sus_2026_pn_tng_20261031204412.pdf,29,Angga,Devis,verified
+P027,sourcePages,"1, 2, 3, 8, 29, 30, 32",putusan_1158_pid.sus_2026_pn_tng_20261031204412.pdf,"1, 2, 3, 8, 29, 30, 32",Angga,Devis,verified
+
+P028,nomorPerkara,1159/Pid.Sus/2026/PN Tng,putusan_1159_pid.sus_2026_pn_tng_20261031204448.pdf,1,Angga,Devis,verified
+P028,pengadilan,Pengadilan Negeri Tangerang,putusan_1159_pid.sus_2026_pn_tng_20261031204448.pdf,1,Angga,Devis,verified
+P028,tanggalPutusan,2026-09-08,putusan_1159_pid.sus_2026_pn_tng_20261031204448.pdf,31,Angga,Devis,verified
+P028,terdakwaKode,SF028,putusan_1159_pid.sus_2026_pn_tng_20261031204448.pdf,1,Angga,Devis,verified
+P028,jenisNarkotika,Sabu,putusan_1159_pid.sus_2026_pn_tng_20261031204448.pdf,3,Angga,Devis,verified
+P028,beratBarangBuktiGram,5986.0,putusan_1159_pid.sus_2026_pn_tng_20261031204448.pdf,3,Angga,Devis,verified
+P028,pasalDakwaan,Pasal 114 Ayat (2) Jo. Pasal 132 Ayat (1) UU No. 35 Tahun 2009,putusan_1159_pid.sus_2026_pn_tng_20261031204448.pdf,8,Angga,Devis,verified
+P028,pasalTerbukti,Pasal 114 Ayat (2) Jo. Pasal 132 Ayat (1) UU No. 35 Tahun 2009,putusan_1159_pid.sus_2026_pn_tng_20261031204448.pdf,29,Angga,Devis,verified
+P028,tuntutanBulan,168,putusan_1159_pid.sus_2026_pn_tng_20261031204448.pdf,2,Angga,Devis,verified
+P028,vonisBulan,114,putusan_1159_pid.sus_2026_pn_tng_20261031204448.pdf,29,Angga,Devis,verified
+P028,dendaRupiah,500000000,putusan_1159_pid.sus_2026_pn_tng_20261031204448.pdf,29,Angga,Devis,verified
+P028,barangBukti,"Narkotika Golongan I jenis sabu (netto 5.986 gram); 1 unit HP Oppo A95; 4 lembar boarding pass; 1 koper Polo Sonic hitam; 5 celana panjang; 1 jaket biru; 2 tag bagasi; 4 lembar uang tunai Rp200.000; 1 lembar KTP",putusan_1159_pid.sus_2026_pn_tng_20261031204448.pdf,3,Angga,Devis,verified
+P028,keadaanMemberatkan,"Perbuatan meresahkan masyarakat; tidak mendukung program pemerintah dalam pemberantasan peredaran gelap narkotika",putusan_1159_pid.sus_2026_pn_tng_20261031204448.pdf,28,Angga,Devis,verified
+P028,keadaanMeringankan,"Terdakwa menyesali perbuatannya; mengakui terus terang perbuatannya",putusan_1159_pid.sus_2026_pn_tng_20261031204448.pdf,29,Angga,Devis,verified
+P028,sourcePages,"1, 2, 3, 8, 28, 29, 31",putusan_1159_pid.sus_2026_pn_tng_20261031204448.pdf,"1, 2, 3, 8, 28, 29, 31",Angga,Devis,verified
+
+P029,nomorPerkara,1160/Pid.Sus/2026/PN Tng,putusan_1160_pid.sus_2026_pn_tng_20261031203847.pdf,1,Angga,Devis,verified
+P029,pengadilan,Pengadilan Negeri Tangerang,putusan_1160_pid.sus_2026_pn_tng_20261031203847.pdf,1,Angga,Devis,verified
+P029,tanggalPutusan,2026-09-09,putusan_1160_pid.sus_2026_pn_tng_20261031203847.pdf,15,Angga,Devis,verified
+P029,terdakwaKode,MN029,putusan_1160_pid.sus_2026_pn_tng_20261031203847.pdf,1,Angga,Devis,verified
+P029,jenisNarkotika,Sabu,putusan_1160_pid.sus_2026_pn_tng_20261031203847.pdf,2,Angga,Devis,verified
+P029,beratBarangBuktiGram,1.2145,putusan_1160_pid.sus_2026_pn_tng_20261031203847.pdf,2,Angga,Devis,verified
+P029,pasalDakwaan,Pasal 114 ayat (1) UU No. 35 Tahun 2009,putusan_1160_pid.sus_2026_pn_tng_20261031203847.pdf,4,Angga,Devis,verified
+P029,pasalTerbukti,Pasal 609 ayat (1) huruf a UU No. 1 Tahun 2023,putusan_1160_pid.sus_2026_pn_tng_20261031203847.pdf,14,Angga,Devis,verified
+P029,tuntutanBulan,60,putusan_1160_pid.sus_2026_pn_tng_20261031203847.pdf,2,Angga,Devis,verified
+P029,vonisBulan,48,putusan_1160_pid.sus_2026_pn_tng_20261031203847.pdf,14,Angga,Devis,verified
+P029,dendaRupiah,1000000000,putusan_1160_pid.sus_2026_pn_tng_20261031203847.pdf,14,Angga,Devis,verified
+P029,barangBukti,"1 dompet kecil berisi 2 bungkus plastik klip sabu (brutto 1,71 gram, netto akhir 1,2145 gram); 1 unit HP Redmi warna krem",putusan_1160_pid.sus_2026_pn_tng_20261031203847.pdf,2,Angga,Devis,verified
+P029,keadaanMemberatkan,Perbuatan Terdakwa tidak mendukung program pemerintah dalam upaya pemberantasan peredaran Narkotika,putusan_1160_pid.sus_2026_pn_tng_20261031203847.pdf,14,Angga,Devis,verified
+P029,keadaanMeringankan,"Terdakwa mengakui dan menyesali perbuatannya; belum pernah dihukum",putusan_1160_pid.sus_2026_pn_tng_20261031203847.pdf,14,Angga,Devis,verified
+P029,sourcePages,"1, 2, 4, 14, 15",putusan_1160_pid.sus_2026_pn_tng_20261031203847.pdf,"1, 2, 4, 14, 15",Angga,Devis,verified
+
+P030,nomorPerkara,1177/Pid.Sus/2026/PN Tng,putusan_1177_pid.sus_2026_pn_tng_20261031203345.pdf,1,Angga,Devis,verified
+P030,pengadilan,Pengadilan Negeri Tangerang,putusan_1177_pid.sus_2026_pn_tng_20261031203345.pdf,1,Angga,Devis,verified
+P030,tanggalPutusan,2026-09-21,putusan_1177_pid.sus_2026_pn_tng_20261031203345.pdf,29,Angga,Devis,verified
+P030,terdakwaKode,SP030,putusan_1177_pid.sus_2026_pn_tng_20261031203345.pdf,1,Angga,Devis,verified
+P030,jenisNarkotika,Ganja,putusan_1177_pid.sus_2026_pn_tng_20261031203345.pdf,2,Angga,Devis,verified
+P030,beratBarangBuktiGram,18.2694,putusan_1177_pid.sus_2026_pn_tng_20261031203345.pdf,6,Angga,Devis,verified
+P030,pasalDakwaan,Pasal 114 Ayat (1) UU No. 35 Tahun 2009,putusan_1177_pid.sus_2026_pn_tng_20261031203345.pdf,2,Angga,Devis,verified
+P030,pasalTerbukti,Pasal 114 Ayat (1) UU No. 35 Tahun 2009,putusan_1177_pid.sus_2026_pn_tng_20261031203345.pdf,28,Angga,Devis,verified
+P030,tuntutanBulan,54,putusan_1177_pid.sus_2026_pn_tng_20261031203345.pdf,2,Angga,Devis,verified
+P030,vonisBulan,48,putusan_1177_pid.sus_2026_pn_tng_20261031203345.pdf,28,Angga,Devis,verified
+P030,dendaRupiah,1000000000,putusan_1177_pid.sus_2026_pn_tng_20261031203345.pdf,28,Angga,Devis,verified
+P030,barangBukti,"1 bungkus kertas putih berisi ganja (brutto 27,4 gram, netto 18,2694 gram); 1 unit HP Infinix Note 30 warna biru metalik",putusan_1177_pid.sus_2026_pn_tng_20261031203345.pdf,2,Angga,Devis,verified
+P030,keadaanMemberatkan,Perbuatan Terdakwa tidak mendukung program pemerintah dalam pemberantasan narkotika dan dapat merusak moral generasi muda,putusan_1177_pid.sus_2026_pn_tng_20261031203345.pdf,27,Angga,Devis,verified
+P030,keadaanMeringankan,"Terdakwa mengakui terus terang perbuatannya; belum pernah dihukum; masih muda",putusan_1177_pid.sus_2026_pn_tng_20261031203345.pdf,27,Angga,Devis,verified
+P030,sourcePages,"1, 2, 6, 27, 28, 29",putusan_1177_pid.sus_2026_pn_tng_20261031203345.pdf,"1, 2, 6, 27, 28, 29",Angga,Devis,verified
+
+P031,nomorPerkara,1192/Pid.Sus/2026/PN Tng,putusan_1192_pid.sus_2026_pn_tng_20261031203912.pdf,1,Angga,Devis,verified
+P031,pengadilan,Pengadilan Negeri Tangerang,putusan_1192_pid.sus_2026_pn_tng_20261031203912.pdf,1,Angga,Devis,verified
+P031,tanggalPutusan,2026-09-10,putusan_1192_pid.sus_2026_pn_tng_20261031203912.pdf,29,Angga,Devis,verified
+P031,terdakwaKode,KS031,putusan_1192_pid.sus_2026_pn_tng_20261031203912.pdf,1,Angga,Devis,verified
+P031,jenisNarkotika,Sabu,putusan_1192_pid.sus_2026_pn_tng_20261031203912.pdf,3,Angga,Devis,verified
+P031,beratBarangBuktiGram,1.7298,putusan_1192_pid.sus_2026_pn_tng_20261031203912.pdf,3,Angga,Devis,verified
+P031,pasalDakwaan,Pasal 114 ayat (1) UU No. 35 Tahun 2009,putusan_1192_pid.sus_2026_pn_tng_20261031203912.pdf,2,Angga,Devis,verified
+P031,pasalTerbukti,Pasal 114 ayat (1) UU No. 35 Tahun 2009,putusan_1192_pid.sus_2026_pn_tng_20261031203912.pdf,28,Angga,Devis,verified
+P031,tuntutanBulan,60,putusan_1192_pid.sus_2026_pn_tng_20261031203912.pdf,2,Angga,Devis,verified
+P031,vonisBulan,48,putusan_1192_pid.sus_2026_pn_tng_20261031203912.pdf,28,Angga,Devis,verified
+P031,dendaRupiah,1000000000,putusan_1192_pid.sus_2026_pn_tng_20261031203912.pdf,28,Angga,Devis,verified
+P031,barangBukti,"5 bungkus plastik klip berisi sabu (brutto 1,48 gram, netto 1,7587 gram, sisa lab 1,7298 gram); 1 jaket Eiger biru; 1 celana panjang coklat; 1 cangklong kaca; 1 unit HP Realme biru",putusan_1192_pid.sus_2026_pn_tng_20261031203912.pdf,3,Angga,Devis,verified
+P031,keadaanMemberatkan,Perbuatan Terdakwa tidak mendukung program pemerintah dalam pemberantasan tindak pidana narkotika,putusan_1192_pid.sus_2026_pn_tng_20261031203912.pdf,27,Angga,Devis,verified
+P031,keadaanMeringankan,"Terdakwa mengakui terus terang dan menyesali perbuatannya; belum pernah dihukum",putusan_1192_pid.sus_2026_pn_tng_20261031203912.pdf,27,Angga,Devis,verified
+P031,sourcePages,"1, 2, 3, 27, 28, 29",putusan_1192_pid.sus_2026_pn_tng_20261031203912.pdf,"1, 2, 3, 27, 28, 29",Angga,Devis,verified
+
+P032,nomorPerkara,1213/Pid.Sus/2026/PN Tng,putusan_1213_pid.sus_2026_pn_tng_20261031204335.pdf,1,Angga,Devis,verified
+P032,pengadilan,Pengadilan Negeri Tangerang,putusan_1213_pid.sus_2026_pn_tng_20261031204335.pdf,1,Angga,Devis,verified
+P032,tanggalPutusan,2026-09-03,putusan_1213_pid.sus_2026_pn_tng_20261031204335.pdf,34,Angga,Devis,verified
+P032,terdakwaKode,CS032,putusan_1213_pid.sus_2026_pn_tng_20261031204335.pdf,1,Angga,Devis,verified
+P032,jenisNarkotika,Sabu,putusan_1213_pid.sus_2026_pn_tng_20261031204335.pdf,2,Angga,Devis,verified
+P032,beratBarangBuktiGram,0.3267,putusan_1213_pid.sus_2026_pn_tng_20261031204335.pdf,3,Angga,Devis,verified
+P032,pasalDakwaan,Pasal 114 ayat (1) jo Pasal 132 ayat (1) UU No. 35 Tahun 2009,putusan_1213_pid.sus_2026_pn_tng_20261031204335.pdf,4,Angga,Devis,verified
+P032,pasalTerbukti,Pasal 114 ayat (2) jo Pasal 132 ayat (1) UU No. 35 Tahun 2009,putusan_1213_pid.sus_2026_pn_tng_20261031204335.pdf,32,Angga,Devis,verified
+P032,tuntutanBulan,60,putusan_1213_pid.sus_2026_pn_tng_20261031204335.pdf,2,Angga,Devis,verified
+P032,vonisBulan,60,putusan_1213_pid.sus_2026_pn_tng_20261031204335.pdf,32,Angga,Devis,verified
+P032,dendaRupiah,1000000000,putusan_1213_pid.sus_2026_pn_tng_20261031204335.pdf,32,Angga,Devis,verified
+P032,barangBukti,"10 bungkus plastik klip berisi sabu (total netto akhir 0,3267 gram); 1 sedotan merah muda; 1 timbangan digital; 1 pack plastik klip; 1 alat hisap bong; 1 unit HP Samsung A02S",putusan_1213_pid.sus_2026_pn_tng_20261031204335.pdf,2,Angga,Devis,verified
+P032,keadaanMemberatkan,"Perbuatan bertentangan dengan program pemerintah; berpotensi merusak mental generasi muda",putusan_1213_pid.sus_2026_pn_tng_20261031204335.pdf,31,Angga,Devis,verified
+P032,keadaanMeringankan,"Terdakwa mengakui terus terang dan menyesal; masih berusia muda",putusan_1213_pid.sus_2026_pn_tng_20261031204335.pdf,31,Angga,Devis,verified
+P032,sourcePages,"1, 2, 3, 4, 31, 32, 34",putusan_1213_pid.sus_2026_pn_tng_20261031204335.pdf,"1, 2, 3, 4, 31, 32, 34",Angga,Devis,verified
+
+P033,nomorPerkara,1214/Pid.Sus/2026/PN Tng,putusan_1214_pid.sus_2026_pn_tng_20261031204400.pdf,1,Angga,Devis,verified
+P033,pengadilan,Pengadilan Negeri Tangerang,putusan_1214_pid.sus_2026_pn_tng_20261031204400.pdf,1,Angga,Devis,verified
+P033,tanggalPutusan,2026-09-03,putusan_1214_pid.sus_2026_pn_tng_20261031204400.pdf,32,Angga,Devis,verified
+P033,terdakwaKode,IS033,putusan_1214_pid.sus_2026_pn_tng_20261031204400.pdf,1,Angga,Devis,verified
+P033,jenisNarkotika,Sabu,putusan_1214_pid.sus_2026_pn_tng_20261031204400.pdf,2,Angga,Devis,verified
+P033,beratBarangBuktiGram,0.3267,putusan_1214_pid.sus_2026_pn_tng_20261031204400.pdf,2,Angga,Devis,verified
+P033,pasalDakwaan,Pasal 114 ayat (1) jo Pasal 132 ayat (1) UU No. 35 Tahun 2009,putusan_1214_pid.sus_2026_pn_tng_20261031204400.pdf,7,Angga,Devis,verified
+P033,pasalTerbukti,Pasal 114 ayat (1) jo Pasal 132 ayat (1) UU No. 35 Tahun 2009,putusan_1214_pid.sus_2026_pn_tng_20261031204400.pdf,30,Angga,Devis,verified
+P033,tuntutanBulan,60,putusan_1214_pid.sus_2026_pn_tng_20261031204400.pdf,2,Angga,Devis,verified
+P033,vonisBulan,60,putusan_1214_pid.sus_2026_pn_tng_20261031204400.pdf,30,Angga,Devis,verified
+P033,dendaRupiah,1000000000,putusan_1214_pid.sus_2026_pn_tng_20261031204400.pdf,30,Angga,Devis,verified
+P033,barangBukti,"10 bungkus plastik klip berisi sabu (total netto akhir 0,3267 gram); 1 sedotan merah muda; 1 timbangan digital; 1 pack plastik klip; 1 unit HP Vivo Y17",putusan_1214_pid.sus_2026_pn_tng_20261031204400.pdf,2,Angga,Devis,verified
+P033,keadaanMemberatkan,"Perbuatan bertentangan dengan program pemerintah; berpotensi merusak mental generasi muda",putusan_1214_pid.sus_2026_pn_tng_20261031204400.pdf,29,Angga,Devis,verified
+P033,keadaanMeringankan,"Terdakwa mengakui terus terang dan menyesal; masih berusia muda",putusan_1214_pid.sus_2026_pn_tng_20261031204400.pdf,29,Angga,Devis,verified
+P033,sourcePages,"1, 2, 7, 29, 30, 32",putusan_1214_pid.sus_2026_pn_tng_20261031204400.pdf,"1, 2, 7, 29, 30, 32",Angga,Devis,verified
+
+P034,nomorPerkara,1216/Pid.Sus/2026/PN Tng,putusan_1216_pid.sus_2026_pn_tng_20261031204312.pdf,1,Angga,Devis,verified
+P034,pengadilan,Pengadilan Negeri Tangerang,putusan_1216_pid.sus_2026_pn_tng_20261031204312.pdf,1,Angga,Devis,verified
+P034,tanggalPutusan,2026-09-03,putusan_1216_pid.sus_2026_pn_tng_20261031204312.pdf,34,Angga,Devis,verified
+P034,terdakwaKode,DN034,putusan_1216_pid.sus_2026_pn_tng_20261031204312.pdf,1,Angga,Devis,verified
+P034,jenisNarkotika,Sabu,putusan_1216_pid.sus_2026_pn_tng_20261031204312.pdf,2,Angga,Devis,verified
+P034,beratBarangBuktiGram,0.7187,putusan_1216_pid.sus_2026_pn_tng_20261031204312.pdf,2,Angga,Devis,verified
+P034,pasalDakwaan,Pasal 114 ayat (1) Jo. Pasal 132 ayat (1) UU No. 35 Tahun 2009,putusan_1216_pid.sus_2026_pn_tng_20261031204312.pdf,2,Angga,Devis,verified
+P034,pasalTerbukti,Pasal 114 ayat (1) Jo. Pasal 132 ayat (1) UU No. 35 Tahun 2009,putusan_1216_pid.sus_2026_pn_tng_20261031204312.pdf,33,Angga,Devis,verified
+P034,tuntutanBulan,90,putusan_1216_pid.sus_2026_pn_tng_20261031204312.pdf,2,Angga,Devis,verified
+P034,vonisBulan,84,putusan_1216_pid.sus_2026_pn_tng_20261031204312.pdf,33,Angga,Devis,verified
+P034,dendaRupiah,1100000000,putusan_1216_pid.sus_2026_pn_tng_20261031204312.pdf,33,Angga,Devis,verified
+P034,barangBukti,"1 bungkus plastik klip berisi sabu (brutto 0,98 gram, netto akhir 0,7187 gram); 2 unit HP Oppo; 1 lembar uang tunai Rp50.000",putusan_1216_pid.sus_2026_pn_tng_20261031204312.pdf,2,Angga,Devis,verified
+P034,keadaanMemberatkan,"Tidak mendukung program pemerintah; meresahkan masyarakat; terdakwa sedang menjalani pidana",putusan_1216_pid.sus_2026_pn_tng_20261031204312.pdf,32,Angga,Devis,verified
+P034,keadaanMeringankan,"Terdakwa bersikap sopan dan mengakui perbuatannya; menyesali perbuatan; tidak berbelit-belit",putusan_1216_pid.sus_2026_pn_tng_20261031204312.pdf,33,Angga,Devis,verified
+P034,sourcePages,"1, 2, 32, 33, 34",putusan_1216_pid.sus_2026_pn_tng_20261031204312.pdf,"1, 2, 32, 33, 34",Angga,Devis,verified
+
+P035,nomorPerkara,1222/Pid.Sus/2026/PN.Tng,putusan_1222_pid.sus_2026_pn_tng_20261031202832.pdf,1,Angga,Devis,verified
+P035,pengadilan,Pengadilan Negeri Tangerang Kelas IA Khusus,putusan_1222_pid.sus_2026_pn_tng_20261031202832.pdf,1,Angga,Devis,verified
+P035,tanggalPutusan,2026-09-29,putusan_1222_pid.sus_2026_pn_tng_20261031202832.pdf,38,Angga,Devis,verified
+P035,terdakwaKode,FR035-HH035,putusan_1222_pid.sus_2026_pn_tng_20261031202832.pdf,1,Angga,Devis,verified
+P035,jenisNarkotika,Tembakau Sintetis (Gorila/MDMB-4en PINACA),putusan_1222_pid.sus_2026_pn_tng_20261031202832.pdf,10,Angga,Devis,verified
+P035,beratBarangBuktiGram,12.5233,putusan_1222_pid.sus_2026_pn_tng_20261031202832.pdf,9,Angga,Devis,verified
+P035,pasalDakwaan,Pasal 114 Ayat (1) Jo. Pasal 132 Ayat (1) UU No. 35 Tahun 2009,putusan_1222_pid.sus_2026_pn_tng_20261031202832.pdf,2,Angga,Devis,verified
+P035,pasalTerbukti,Pasal 114 Ayat (1) Jo. Pasal 132 Ayat (1) UU No. 35 Tahun 2009,putusan_1222_pid.sus_2026_pn_tng_20261031202832.pdf,36,Angga,Devis,verified
+P035,tuntutanBulan,102,putusan_1222_pid.sus_2026_pn_tng_20261031202832.pdf,3,Angga,Devis,verified
+P035,vonisBulan,78,putusan_1222_pid.sus_2026_pn_tng_20261031202832.pdf,36,Angga,Devis,verified
+P035,dendaRupiah,1000000000,putusan_1222_pid.sus_2026_pn_tng_20261031202832.pdf,36,Angga,Devis,verified
+P035,barangBukti,"11 bungkus plastik klip berisi tembakau sintetis (brutto 16,52 gram, netto total 12,5233 gram); 1 unit HP Realme C2 warna biru; 1 unit HP Vivo Y100 warna biru metalik",putusan_1222_pid.sus_2026_pn_tng_20261031202832.pdf,3,Angga,Devis,verified
+P035,keadaanMemberatkan,"Perbuatan sangat bertentangan dengan program pemerintah; kejahatan narkotika sebagai extra ordinary crime",putusan_1222_pid.sus_2026_pn_tng_20261031202832.pdf,32,Angga,Devis,verified
+P035,keadaanMeringankan,"Para terdakwa masih muda; menyesal; berjanji tidak mengulangi; sopan; belum pernah dihukum",putusan_1222_pid.sus_2026_pn_tng_20261031202832.pdf,32,Angga,Devis,verified
+P035,sourcePages,"1, 2, 3, 9, 10, 32, 36, 38",putusan_1222_pid.sus_2026_pn_tng_20261031202832.pdf,"1, 2, 3, 9, 10, 32, 36, 38",Angga,Devis,verified
+
+P036,nomorPerkara,1238/Pid.Sus/2026/PN Tng,putusan_1238_pid.sus_2026_pn_tng_20261031203923.pdf,1,Angga,Devis,verified
+P036,pengadilan,Pengadilan Negeri Tangerang,putusan_1238_pid.sus_2026_pn_tng_20261031203923.pdf,1,Angga,Devis,verified
+P036,tanggalPutusan,2026-09-08,putusan_1238_pid.sus_2026_pn_tng_20261031203923.pdf,62,Angga,Devis,verified
+P036,terdakwaKode,DA036-AI036-FP036,putusan_1238_pid.sus_2026_pn_tng_20261031203923.pdf,1,Angga,Devis,verified
+P036,jenisNarkotika,Tembakau Sintetis (MDMB-4en PINACA),putusan_1238_pid.sus_2026_pn_tng_20261031203923.pdf,11,Angga,Devis,verified
+P036,beratBarangBuktiGram,14.0995,putusan_1238_pid.sus_2026_pn_tng_20261031203923.pdf,11,Angga,Devis,verified
+P036,pasalDakwaan,Pasal 114 Ayat (1) Jo Pasal 132 Ayat (1) UU No. 35 Tahun 2009,putusan_1238_pid.sus_2026_pn_tng_20261031203923.pdf,3,Angga,Devis,verified
+P036,pasalTerbukti,Pasal 114 Ayat (1) Jo Pasal 132 Ayat (1) UU No. 35 Tahun 2009,putusan_1238_pid.sus_2026_pn_tng_20261031203923.pdf,60,Angga,Devis,verified
+P036,tuntutanBulan,48,putusan_1238_pid.sus_2026_pn_tng_20261031203923.pdf,4,Angga,Devis,verified
+P036,vonisBulan,42,putusan_1238_pid.sus_2026_pn_tng_20261031203923.pdf,60,Angga,Devis,verified
+P036,dendaRupiah,1000000000,putusan_1238_pid.sus_2026_pn_tng_20261031203923.pdf,60,Angga,Devis,verified
+P036,barangBukti,"1 bungkus plastik klip berisi tembakau sintetis (netto akhir 13,4832 gram); 1 bungkus plastik hitam berisi tembakau sintetis (netto akhir 0,4528 gram); 1 bungkus bekas rokok Djarum Coklat berisi tembakau sintetis (netto akhir 0,1635 gram); 1 unit HP Oppo; 1 unit HP Infinix; 1 unit HP Vivo",putusan_1238_pid.sus_2026_pn_tng_20261031203923.pdf,4,Angga,Devis,verified
+P036,keadaanMemberatkan,"Perbuatan bertentangan dengan program pemerintah; meresahkan masyarakat; merusak generasi muda",putusan_1238_pid.sus_2026_pn_tng_20261031203923.pdf,58,Angga,Devis,verified
+P036,keadaanMeringankan,"Para terdakwa belum pernah dihukum; mengakui perbuatan dan menyesal; sopan dalam persidangan; tulang punggung keluarga",putusan_1238_pid.sus_2026_pn_tng_20261031203923.pdf,58,Angga,Devis,verified
+P036,sourcePages,"1, 3, 4, 11, 58, 60, 62",putusan_1238_pid.sus_2026_pn_tng_20261031203923.pdf,"1, 3, 4, 11, 58, 60, 62",Angga,Devis,verified
+
+P037,nomorPerkara,1242/Pid.Sus/2026/PN Tng,putusan_1242_pid.sus_2026_pn_tng_20261031202931.pdf,1,Angga,Devis,verified
+P037,pengadilan,Pengadilan Negeri Tangerang,putusan_1242_pid.sus_2026_pn_tng_20261031202931.pdf,1,Angga,Devis,verified
+P037,tanggalPutusan,2026-09-24,putusan_1242_pid.sus_2026_pn_tng_20261031202931.pdf,42,Angga,Devis,verified
+P037,terdakwaKode,HP037,putusan_1242_pid.sus_2026_pn_tng_20261031202931.pdf,1,Angga,Devis,verified
+P037,jenisNarkotika,"Sabu, Ekstasi, Etomidate",putusan_1242_pid.sus_2026_pn_tng_20261031202931.pdf,3,Angga,Devis,verified
+P037,beratBarangBuktiGram,773.7332,putusan_1242_pid.sus_2026_pn_tng_20261031202931.pdf,3,Angga,Devis,verified
+P037,pasalDakwaan,"Pasal 114 ayat (2) UU No. 35 Tahun 2009 & Pasal 119 ayat (2) UU No. 35 Tahun 2009",putusan_1242_pid.sus_2026_pn_tng_20261031202931.pdf,4,Angga,Devis,verified
+P037,pasalTerbukti,"Pasal 114 ayat (2) UU No. 35 Tahun 2009 & Pasal 119 ayat (2) UU No. 35 Tahun 2009",putusan_1242_pid.sus_2026_pn_tng_20261031202931.pdf,40,Angga,Devis,verified
+P037,tuntutanBulan,96,putusan_1242_pid.sus_2026_pn_tng_20261031202931.pdf,2,Angga,Devis,verified
+P037,vonisBulan,96,putusan_1242_pid.sus_2026_pn_tng_20261031202931.pdf,40,Angga,Devis,verified
+P037,dendaRupiah,1000000000,putusan_1242_pid.sus_2026_pn_tng_20261031202931.pdf,40,Angga,Devis,verified
+P037,barangBukti,"8 bungkus plastik klip berisi sabu (netto total 721,08 gram); 2 bungkus plastik klip berisi ekstasi (netto total 43,64 gram); 5 Cartridge Pod Yakuza berisi Etomidate (netto 9,0132 gram); 1 timbangan digital; 1 unit HP Vivo",putusan_1242_pid.sus_2026_pn_tng_20261031202931.pdf,3,Angga,Devis,verified
+P037,keadaanMemberatkan,Perbuatan Terdakwa bertentangan dengan program pemerintah dalam pemberantasan penyalahgunaan narkotika,putusan_1242_pid.sus_2026_pn_tng_20261031202931.pdf,39,Angga,Devis,verified
+P037,keadaanMeringankan,"Terdakwa mengakui terus terang perbuatannya; belum pernah dihukum",putusan_1242_pid.sus_2026_pn_tng_20261031202931.pdf,39,Angga,Devis,verified
+P037,sourcePages,"1, 2, 3, 4, 39, 40, 42",putusan_1242_pid.sus_2026_pn_tng_20261031202931.pdf,"1, 2, 3, 4, 39, 40, 42",Angga,Devis,verified
+
+P038,nomorPerkara,1243/Pid.Sus/2026/PN Tng,putusan_1243_pid.sus_2026_pn_tng_20261031203309.pdf,1,Angga,Devis,verified
+P038,pengadilan,Pengadilan Negeri Tangerang,putusan_1243_pid.sus_2026_pn_tng_20261031203309.pdf,1,Angga,Devis,verified
+P038,tanggalPutusan,2026-09-24,putusan_1243_pid.sus_2026_pn_tng_20261031203309.pdf,29,Angga,Devis,verified
+P038,terdakwaKode,NK038,putusan_1243_pid.sus_2026_pn_tng_20261031203309.pdf,1,Angga,Devis,verified
+P038,jenisNarkotika,"Sabu, Etomidate",putusan_1243_pid.sus_2026_pn_tng_20261031203309.pdf,3,Angga,Devis,verified
+P038,beratBarangBuktiGram,9.1532,putusan_1243_pid.sus_2026_pn_tng_20261031203309.pdf,3,Angga,Devis,verified
+P038,pasalDakwaan,"Pasal 114 ayat (1) UU No. 35 Tahun 2009 & Pasal 119 ayat (2) UU No. 35 Tahun 2009",putusan_1243_pid.sus_2026_pn_tng_20261031203309.pdf,2,Angga,Devis,verified
+P038,pasalTerbukti,"Pasal 114 ayat (1) UU No. 35 Tahun 2009 & Pasal 119 ayat (2) UU No. 35 Tahun 2009",putusan_1243_pid.sus_2026_pn_tng_20261031203309.pdf,28,Angga,Devis,verified
+P038,tuntutanBulan,60,putusan_1243_pid.sus_2026_pn_tng_20261031203309.pdf,2,Angga,Devis,verified
+P038,vonisBulan,48,putusan_1243_pid.sus_2026_pn_tng_20261031203309.pdf,28,Angga,Devis,verified
+P038,dendaRupiah,1000000000,putusan_1243_pid.sus_2026_pn_tng_20261031203309.pdf,28,Angga,Devis,verified
+P038,barangBukti,"1 bungkus plastik klip berisi sabu (netto 0,14 gram); 5 Cartridge Pod Yakuza berisi Etomidate (netto 9,0132 gram); 1 unit HP Samsung warna hitam; 1 unit HP Realme warna biru",putusan_1243_pid.sus_2026_pn_tng_20261031203309.pdf,2,Angga,Devis,verified
+P038,keadaanMemberatkan,Perbuatan Terdakwa bertentangan dengan program pemerintah dalam pemberantasan penyalahgunaan narkotika,putusan_1243_pid.sus_2026_pn_tng_20261031203309.pdf,28,Angga,Devis,verified
+P038,keadaanMeringankan,"Terdakwa mengakui terus terang perbuatannya; belum pernah dihukum",putusan_1243_pid.sus_2026_pn_tng_20261031203309.pdf,28,Angga,Devis,verified
+P038,sourcePages,"1, 2, 3, 28, 29",putusan_1243_pid.sus_2026_pn_tng_20261031203309.pdf,"1, 2, 3, 28, 29",Angga,Devis,verified
+
+P039,nomorPerkara,1245/Pid.Sus/2026/PN Tng,putusan_1245_pid.sus_2026_pn_tng_20261031203822.pdf,1,Angga,Devis,verified
+P039,pengadilan,Pengadilan Negeri Tangerang,putusan_1245_pid.sus_2026_pn_tng_20261031203822.pdf,1,Angga,Devis,verified
+P039,tanggalPutusan,2026-09-15,putusan_1245_pid.sus_2026_pn_tng_20261031203822.pdf,28,Angga,Devis,verified
+P039,terdakwaKode,MZ039,putusan_1245_pid.sus_2026_pn_tng_20261031203822.pdf,1,Angga,Devis,verified
+P039,jenisNarkotika,Tembakau Sintetis (MDMB-4en PINACA),putusan_1245_pid.sus_2026_pn_tng_20261031203822.pdf,6,Angga,Devis,verified
+P039,beratBarangBuktiGram,12.2961,putusan_1245_pid.sus_2026_pn_tng_20261031203822.pdf,6,Angga,Devis,verified
+P039,pasalDakwaan,Pasal 114 Ayat (1) UU No. 35 Tahun 2009,putusan_1245_pid.sus_2026_pn_tng_20261031203822.pdf,2,Angga,Devis,verified
+P039,pasalTerbukti,Pasal 114 Ayat (1) UU No. 35 Tahun 2009,putusan_1245_pid.sus_2026_pn_tng_20261031203822.pdf,26,Angga,Devis,verified
+P039,tuntutanBulan,48,putusan_1245_pid.sus_2026_pn_tng_20261031203822.pdf,2,Angga,Devis,verified
+P039,vonisBulan,36,putusan_1245_pid.sus_2026_pn_tng_20261031203822.pdf,27,Angga,Devis,verified
+P039,dendaRupiah,1000000000,putusan_1245_pid.sus_2026_pn_tng_20261031203822.pdf,27,Angga,Devis,verified
+P039,barangBukti,"1 bungkus plastik klip berisi tembakau sintetis (brutto 11 gram); 1 bungkus plastik klip berisi tembakau sintetis (brutto 0,75 gram); 1 bungkus kertas koran berisi tembakau sintetis (brutto 15,26 gram); 3 bungkus plastik klip berisi tembakau sintetis (brutto 5,28 gram); 2 bungkus plastik berisi tembakau murni; 2 kotak wadah plastik; 1 lakban merah; 1 pack plastik klip; 1 timbangan elektrik; 1 unit HP Vivo Y12",putusan_1245_pid.sus_2026_pn_tng_20261031203822.pdf,3,Angga,Devis,verified
+P039,keadaanMemberatkan,Perbuatan terdakwa bertentangan dengan program pemerintah dalam pemberantasan narkoba,putusan_1245_pid.sus_2026_pn_tng_20261031203822.pdf,26,Angga,Devis,verified
+P039,keadaanMeringankan,"Terdakwa mengakui perbuatannya; bersikap sopan dipersidangan; belum pernah dihukum",putusan_1245_pid.sus_2026_pn_tng_20261031203822.pdf,26,Angga,Devis,verified
+P039,sourcePages,"1, 2, 3, 6, 26, 27, 28",putusan_1245_pid.sus_2026_pn_tng_20261031203822.pdf,"1, 2, 3, 6, 26, 27, 28",Angga,Devis,verified
+
+P040,nomorPerkara,1266/Pid.Sus/2026/PN Tng,putusan_1266_pid.sus_2026_pn_tng_20261031202854.pdf,1,Angga,Devis,verified
+P040,pengadilan,Pengadilan Negeri Tangerang,putusan_1266_pid.sus_2026_pn_tng_20261031202854.pdf,1,Angga,Devis,verified
+P040,tanggalPutusan,2026-09-17,putusan_1266_pid.sus_2026_pn_tng_20261031202854.pdf,22,Angga,Devis,verified
+P040,terdakwaKode,HG040,putusan_1266_pid.sus_2026_pn_tng_20261031202854.pdf,1,Angga,Devis,verified
+P040,jenisNarkotika,Sabu,putusan_1266_pid.sus_2026_pn_tng_20261031202854.pdf,3,Angga,Devis,verified
+P040,beratBarangBuktiGram,11.4632,putusan_1266_pid.sus_2026_pn_tng_20261031202854.pdf,5,Angga,Devis,verified
+P040,pasalDakwaan,Pasal 114 Ayat (2) UU No. 35 Tahun 2009,putusan_1266_pid.sus_2026_pn_tng_20261031202854.pdf,2,Angga,Devis,verified
+P040,pasalTerbukti,Pasal 114 Ayat (2) UU No. 35 Tahun 2009,putusan_1266_pid.sus_2026_pn_tng_20261031202854.pdf,21,Angga,Devis,verified
+P040,tuntutanBulan,132,putusan_1266_pid.sus_2026_pn_tng_20261031202854.pdf,2,Angga,Devis,verified
+P040,vonisBulan,114,putusan_1266_pid.sus_2026_pn_tng_20261031202854.pdf,21,Angga,Devis,verified
+P040,dendaRupiah,2000000000,putusan_1266_pid.sus_2026_pn_tng_20261031202854.pdf,21,Angga,Devis,verified
+P040,barangBukti,"1 bungkus plastik klip berisi sabu (brutto 9,48 gram, netto 9,4567 gram); 1 bungkus plastik klip berisi sabu (brutto 0,17 gram, netto 0,0780 gram); 3 bungkus plastik klip berisi sabu (brutto total 2,17 gram, netto total 1,9285 gram); 1 unit HP Samsung",putusan_1266_pid.sus_2026_pn_tng_20261031202854.pdf,3,Angga,Devis,verified
+P040,keadaanMemberatkan,"Perbuatan meresahkan masyarakat; terdakwa sudah pernah dipidana karena tindak pidana narkotika; tidak mendukung program pemerintah",putusan_1266_pid.sus_2026_pn_tng_20261031202854.pdf,21,Angga,Devis,verified
+P040,keadaanMeringankan,Terdakwa mengakui dan menyesali perbuatannya,putusan_1266_pid.sus_2026_pn_tng_20261031202854.pdf,21,Angga,Devis,verified
+P040,sourcePages,"1, 2, 3, 5, 21, 22",putusan_1266_pid.sus_2026_pn_tng_20261031202854.pdf,"1, 2, 3, 5, 21, 22",Angga,Devis,verified
+
+P041,nomorPerkara,1274/Pid.Sus/2026/PN Tng,putusan_1274_pid.sus_2026_pn_tng_20261031202911.pdf,1,Angga,Devis,verified
+P041,pengadilan,Pengadilan Negeri Tangerang,putusan_1274_pid.sus_2026_pn_tng_20261031202911.pdf,1,Angga,Devis,verified
+P041,tanggalPutusan,2026-09-17,putusan_1274_pid.sus_2026_pn_tng_20261031202911.pdf,40,Angga,Devis,verified
+P041,terdakwaKode,MZ041,putusan_1274_pid.sus_2026_pn_tng_20261031202911.pdf,1,Angga,Devis,verified
+P041,jenisNarkotika,Tembakau Sintetis (MDMB-4en PINACA),putusan_1274_pid.sus_2026_pn_tng_20261031202911.pdf,9,Angga,Devis,verified
+P041,beratBarangBuktiGram,0.5900,putusan_1274_pid.sus_2026_pn_tng_20261031202911.pdf,9,Angga,Devis,verified
+P041,pasalDakwaan,Pasal 114 Ayat (1) Jo Pasal 132 Ayat (1) UU No. 35 Tahun 2009,putusan_1274_pid.sus_2026_pn_tng_20261031202911.pdf,2,Angga,Devis,verified
+P041,pasalTerbukti,Pasal 114 Ayat (1) Jo Pasal 132 Ayat (1) UU No. 35 Tahun 2009,putusan_1274_pid.sus_2026_pn_tng_20261031202911.pdf,38,Angga,Devis,verified
+P041,tuntutanBulan,48,putusan_1274_pid.sus_2026_pn_tng_20261031202911.pdf,2,Angga,Devis,verified
+P041,vonisBulan,42,putusan_1274_pid.sus_2026_pn_tng_20261031202911.pdf,39,Angga,Devis,verified
+P041,dendaRupiah,1000000000,putusan_1274_pid.sus_2026_pn_tng_20261031202911.pdf,39,Angga,Devis,verified
+P041,barangBukti,"2 botol spray berisi tembakau sintetis (netto total 0,5900 gram); 2 botol alkohol 96%; 1 gelas ukur; 10 botol biru; 2 suntikan; 3 lakban; 2 pack plastik klip 4x6; 1 pack plastik klip 5x8; 3 bungkus tembakau murni; 1 unit HP iPhone 15",putusan_1274_pid.sus_2026_pn_tng_20261031202911.pdf,3,Angga,Devis,verified
+P041,keadaanMemberatkan,"Perbuatan tidak mendukung program pemerintah dalam memberantas Narkotika; merusak generasi muda",putusan_1274_pid.sus_2026_pn_tng_20261031202911.pdf,38,Angga,Devis,verified
+P041,keadaanMeringankan,Terdakwa belum pernah dihukum,putusan_1274_pid.sus_2026_pn_tng_20261031202911.pdf,38,Angga,Devis,verified
+P041,sourcePages,"1, 2, 3, 9, 38, 39, 40",putusan_1274_pid.sus_2026_pn_tng_20261031202911.pdf,"1, 2, 3, 9, 38, 39, 40",Angga,Devis,verified
+
+P042,nomorPerkara,1280/Pid.Sus/2026/PN Tng,putusan_1280_pid.sus_2026_pn_tng_20261031202902.pdf,1,Angga,Devis,verified
+P042,pengadilan,Pengadilan Negeri Tangerang,putusan_1280_pid.sus_2026_pn_tng_20261031202902.pdf,1,Angga,Devis,verified
+P042,tanggalPutusan,2026-09-17,putusan_1280_pid.sus_2026_pn_tng_20261031202902.pdf,30,Angga,Devis,verified
+P042,terdakwaKode,DK042,putusan_1280_pid.sus_2026_pn_tng_20261031202902.pdf,1,Angga,Devis,verified
+P042,jenisNarkotika,Sabu,putusan_1280_pid.sus_2026_pn_tng_20261031202902.pdf,3,Angga,Devis,verified
+P042,beratBarangBuktiGram,47.50,putusan_1280_pid.sus_2026_pn_tng_20261031202902.pdf,3,Angga,Devis,verified
+P042,pasalDakwaan,Pasal 114 Ayat (2) UU No. 35 Tahun 2009,putusan_1280_pid.sus_2026_pn_tng_20261031202902.pdf,2,Angga,Devis,verified
+P042,pasalTerbukti,Pasal 114 Ayat (2) UU No. 35 Tahun 2009,putusan_1280_pid.sus_2026_pn_tng_20261031202902.pdf,29,Angga,Devis,verified
+P042,tuntutanBulan,72,putusan_1280_pid.sus_2026_pn_tng_20261031202902.pdf,2,Angga,Devis,verified
+P042,vonisBulan,84,putusan_1280_pid.sus_2026_pn_tng_20261031202902.pdf,29,Angga,Devis,verified
+P042,dendaRupiah,2000000000,putusan_1280_pid.sus_2026_pn_tng_20261031202902.pdf,29,Angga,Devis,verified
+P042,barangBukti,"1 bungkus plastik bekas Sukro berisi sabu (brutto 19,91 gram, netto 19,46 gram); 18 bungkus plastik klip berisi sabu (brutto total 30,60 gram, netto total 28,04 gram); 1 unit HP Infinix; 1 unit HP Redmi; 1 timbangan digital; 1 alat hisap bong; 1 cangklong kaca; 3 pack plastik klip; 1 kotak bekas POD; 1 unit motor Honda Beat",putusan_1280_pid.sus_2026_pn_tng_20261031202902.pdf,3,Angga,Devis,verified
+P042,keadaanMemberatkan,"Perbuatan meresahkan masyarakat; bertentangan dengan program pemerintah dalam pemberantasan penyalahgunaan narkotika",putusan_1280_pid.sus_2026_pn_tng_20261031202902.pdf,28,Angga,Devis,verified
+P042,keadaanMeringankan,"Terdakwa mengakui terus terang dan menyesal; belum pernah dihukum",putusan_1280_pid.sus_2026_pn_tng_20261031202902.pdf,28,Angga,Devis,verified
+P042,sourcePages,"1, 2, 3, 28, 29, 30",putusan_1280_pid.sus_2026_pn_tng_20261031202902.pdf,"1, 2, 3, 28, 29, 30",Angga,Devis,verified
+
+P043,nomorPerkara,1302/Pid.Sus/2026/PN.Tng,putusan_1302_pid.sus_2026_pn_tng_20261031203834.pdf,1,Angga,Devis,verified
+P043,pengadilan,Pengadilan Negeri Tangerang,putusan_1302_pid.sus_2026_pn_tng_20261031203834.pdf,1,Angga,Devis,verified
+P043,tanggalPutusan,2026-09-15,putusan_1302_pid.sus_2026_pn_tng_20261031203834.pdf,30,Angga,Devis,verified
+P043,terdakwaKode,RS043,putusan_1302_pid.sus_2026_pn_tng_20261031203834.pdf,1,Angga,Devis,verified
+P043,jenisNarkotika,Sabu,putusan_1302_pid.sus_2026_pn_tng_20261031203834.pdf,2,Angga,Devis,verified
+P043,beratBarangBuktiGram,1.9261,putusan_1302_pid.sus_2026_pn_tng_20261031203834.pdf,6,Angga,Devis,verified
+P043,pasalDakwaan,Pasal 114 Ayat (1) Jo. Pasal 132 Ayat (1) UU No. 35 Tahun 2009,putusan_1302_pid.sus_2026_pn_tng_20261031203834.pdf,2,Angga,Devis,verified
+P043,pasalTerbukti,Pasal 114 Ayat (1) Jo. Pasal 132 Ayat (1) UU No. 35 Tahun 2009,putusan_1302_pid.sus_2026_pn_tng_20261031203834.pdf,29,Angga,Devis,verified
+P043,tuntutanBulan,56,putusan_1302_pid.sus_2026_pn_tng_20261031203834.pdf,2,Angga,Devis,verified
+P043,vonisBulan,48,putusan_1302_pid.sus_2026_pn_tng_20261031203834.pdf,29,Angga,Devis,verified
+P043,dendaRupiah,1000000000,putusan_1302_pid.sus_2026_pn_tng_20261031203834.pdf,29,Angga,Devis,verified
+P043,barangBukti,"1 tas selempang hitam berisi 2 plastik klip sabu (netto total 1,7136 gram); 1 kotak plastik SQRS berisi 3 paket sabu (netto total 0,2125 gram); 1 plastik klip kosong; 2 timbangan elektrik; 1 unit HP",putusan_1302_pid.sus_2026_pn_tng_20261031203834.pdf,2,Angga,Devis,verified
+P043,keadaanMemberatkan,Terdakwa tidak mengindahkan peringatan pemerintah tentang bahaya peredaran dan penggunaan Narkotika,putusan_1302_pid.sus_2026_pn_tng_20261031203834.pdf,28,Angga,Devis,verified
+P043,keadaanMeringankan,"Terdakwa terus terang; menyesali perbuatan; belum pernah dihukum",putusan_1302_pid.sus_2026_pn_tng_20261031203834.pdf,28,Angga,Devis,verified
+P043,sourcePages,"1, 2, 6, 28, 29, 30",putusan_1302_pid.sus_2026_pn_tng_20261031203834.pdf,"1, 2, 6, 28, 29, 30",Angga,Devis,verified
+
+P044,nomorPerkara,1310/PID.SUS/2026/PN.Tng,putusan_1310_pid.sus_2026_pn_tng_20261031202734.pdf,1,Angga,Devis,verified
+P044,pengadilan,Pengadilan Negeri Tangerang,putusan_1310_pid.sus_2026_pn_tng_20261031202734.pdf,1,Angga,Devis,verified
+P044,tanggalPutusan,2026-10-01,putusan_1310_pid.sus_2026_pn_tng_20261031202734.pdf,34,Angga,Devis,verified
+P044,terdakwaKode,MP044,putusan_1310_pid.sus_2026_pn_tng_20261031202734.pdf,1,Angga,Devis,verified
+P044,jenisNarkotika,Sabu,putusan_1310_pid.sus_2026_pn_tng_20261031202734.pdf,3,Angga,Devis,verified
+P044,beratBarangBuktiGram,2.8365,putusan_1310_pid.sus_2026_pn_tng_20261031202734.pdf,6,Angga,Devis,verified
+P044,pasalDakwaan,Pasal 114 Ayat (1) Jo. Pasal 132 Ayat (1) UU No. 35 Tahun 2009,putusan_1310_pid.sus_2026_pn_tng_20261031202734.pdf,2,Angga,Devis,verified
+P044,pasalTerbukti,Pasal 114 Ayat (1) Jo. Pasal 132 Ayat (1) UU No. 35 Tahun 2009,putusan_1310_pid.sus_2026_pn_tng_20261031202734.pdf,32,Angga,Devis,verified
+P044,tuntutanBulan,66,putusan_1310_pid.sus_2026_pn_tng_20261031202734.pdf,2,Angga,Devis,verified
+P044,vonisBulan,60,putusan_1310_pid.sus_2026_pn_tng_20261031202734.pdf,32,Angga,Devis,verified
+P044,dendaRupiah,1000000000,putusan_1310_pid.sus_2026_pn_tng_20261031202734.pdf,32,Angga,Devis,verified
+P044,barangBukti,"1 bekas tempat minyak rambut berisi 5 plastik klip sabu (netto total 2,8365 gram); 1 timbangan digital elektrik; 1 unit HP Vivo; 1 tas selempang coklat hitam",putusan_1310_pid.sus_2026_pn_tng_20261031202734.pdf,4,Angga,Devis,verified
+P044,keadaanMemberatkan,Perbuatan Terdakwa tidak mendukung program Pemerintah dalam pemberantasan Narkoba,putusan_1310_pid.sus_2026_pn_tng_20261031202734.pdf,32,Angga,Devis,verified
+P044,keadaanMeringankan,Terdakwa mengakui dan menyesali perbuatannya,putusan_1310_pid.sus_2026_pn_tng_20261031202734.pdf,32,Angga,Devis,verified
+P044,sourcePages,"1, 2, 3, 4, 6, 32, 34",putusan_1310_pid.sus_2026_pn_tng_20261031202734.pdf,"1, 2, 3, 4, 6, 32, 34",Angga,Devis,verified
+
+P045,nomorPerkara,1315/Pid.Sus/2026/PN.Tng,putusan_1315_pid.sus_2026_pn_tng_20261031202807.pdf,1,Angga,Devis,verified
+P045,pengadilan,Pengadilan Negeri Tangerang,putusan_1315_pid.sus_2026_pn_tng_20261031202807.pdf,1,Angga,Devis,verified
+P045,tanggalPutusan,2026-09-29,putusan_1315_pid.sus_2026_pn_tng_20261031202807.pdf,31,Angga,Devis,verified
+P045,terdakwaKode,RA045,putusan_1315_pid.sus_2026_pn_tng_20261031202807.pdf,1,Angga,Devis,verified
+P045,jenisNarkotika,Sabu,putusan_1315_pid.sus_2026_pn_tng_20261031202807.pdf,2,Angga,Devis,verified
+P045,beratBarangBuktiGram,0.7452,putusan_1315_pid.sus_2026_pn_tng_20261031202807.pdf,3,Angga,Devis,verified
+P045,pasalDakwaan,Pasal 114 Ayat (1) UU No. 35 Tahun 2009,putusan_1315_pid.sus_2026_pn_tng_20261031202807.pdf,2,Angga,Devis,verified
+P045,pasalTerbukti,Pasal 114 Ayat (1) UU No. 35 Tahun 2009,putusan_1315_pid.sus_2026_pn_tng_20261031202807.pdf,30,Angga,Devis,verified
+P045,tuntutanBulan,96,putusan_1315_pid.sus_2026_pn_tng_20261031202807.pdf,2,Angga,Devis,verified
+P045,vonisBulan,84,putusan_1315_pid.sus_2026_pn_tng_20261031202807.pdf,30,Angga,Devis,verified
+P045,dendaRupiah,1000000000,putusan_1315_pid.sus_2026_pn_tng_20261031202807.pdf,30,Angga,Devis,verified
+P045,barangBukti,"1 plastik klip sedang berisi 11 paket plastik klip sabu (brutto 2,01 gram, netto 0,7639 gram, sisa lab 0,7452 gram); 1 unit HP Samsung biru",putusan_1315_pid.sus_2026_pn_tng_20261031202807.pdf,3,Angga,Devis,verified
+P045,keadaanMemberatkan,Perbuatan Terdakwa tidak mendukung program pemerintah dalam upaya memberantas peredaran dan penggunaan narkoba secara ilegal,putusan_1315_pid.sus_2026_pn_tng_20261031202807.pdf,30,Angga,Devis,verified
+P045,keadaanMeringankan,"Terdakwa mengakui dan menyesali perbuatannya; bersikap sopan selama proses persidangan; belum pernah dihukum",putusan_1315_pid.sus_2026_pn_tng_20261031202807.pdf,30,Angga,Devis,verified
+P045,sourcePages,"1, 2, 3, 30, 31",putusan_1315_pid.sus_2026_pn_tng_20261031202807.pdf,"1, 2, 3, 30, 31",Angga,Devis,verified
+
+P046,nomorPerkara,1330/Pid.Sus/2026/PN Tng,putusan_1330_pid.sus_2026_pn_tng_20261028224123.pdf,1,Angga,Devis,verified
+P046,pengadilan,Pengadilan Negeri Tangerang,putusan_1330_pid.sus_2026_pn_tng_20261028224123.pdf,1,Angga,Devis,verified
+P046,tanggalPutusan,2026-10-01,putusan_1330_pid.sus_2026_pn_tng_20261028224123.pdf,18,Angga,Devis,verified
+P046,terdakwaKode,MF046,putusan_1330_pid.sus_2026_pn_tng_20261028224123.pdf,1,Angga,Devis,verified
+P046,jenisNarkotika,Tembakau Sintetis (MDMB-4en PINACA),putusan_1330_pid.sus_2026_pn_tng_20261028224123.pdf,4,Angga,Devis,verified
+P046,beratBarangBuktiGram,9.4934,putusan_1330_pid.sus_2026_pn_tng_20261028224123.pdf,4,Angga,Devis,verified
+P046,pasalDakwaan,"Pasal 114 Ayat (1) UU No. 35 Tahun 2009 & Pasal 609 Ayat (1) huruf a UU No. 1 Tahun 2023",putusan_1330_pid.sus_2026_pn_tng_20261028224123.pdf,3,Angga,Devis,verified
+P046,pasalTerbukti,Pasal 609 Ayat (1) huruf a UU No. 1 Tahun 2023,putusan_1330_pid.sus_2026_pn_tng_20261028224123.pdf,17,Angga,Devis,verified
+P046,tuntutanBulan,60,putusan_1330_pid.sus_2026_pn_tng_20261028224123.pdf,2,Angga,Devis,verified
+P046,vonisBulan,36,putusan_1330_pid.sus_2026_pn_tng_20261028224123.pdf,17,Angga,Devis,verified
+P046,dendaRupiah,50000000,putusan_1330_pid.sus_2026_pn_tng_20261028224123.pdf,17,Angga,Devis,verified
+P046,barangBukti,"1 brangkas mini berisi 1 bungkus plastik tembakau sintetis (brutto 11,49 gram, netto 9,4934 gram); 1 unit HP Oppo",putusan_1330_pid.sus_2026_pn_tng_20261028224123.pdf,2,Angga,Devis,verified
+P046,keadaanMemberatkan,"Perbuatan bertentangan dengan program pemerintah; terdakwa sudah pernah dihukum",putusan_1330_pid.sus_2026_pn_tng_20261028224123.pdf,17,Angga,Devis,verified
+P046,keadaanMeringankan,"Terdakwa mengakui dan menyesali perbuatannya; berjanji tidak mengulangi",putusan_1330_pid.sus_2026_pn_tng_20261028224123.pdf,17,Angga,Devis,verified
+P046,sourcePages,"1, 2, 3, 4, 17, 18",putusan_1330_pid.sus_2026_pn_tng_20261028224123.pdf,"1, 2, 3, 4, 17, 18",Angga,Devis,verified
+
+P047,nomorPerkara,1383/Pid.Sus/2026/PN Tng,putusan_1383_pid.sus_2026_pn_tng_20261024141845.pdf,1,Angga,Devis,verified
+P047,pengadilan,Pengadilan Negeri Tangerang,putusan_1383_pid.sus_2026_pn_tng_20261024141845.pdf,1,Angga,Devis,verified
+P047,tanggalPutusan,2026-10-06,putusan_1383_pid.sus_2026_pn_tng_20261024141845.pdf,39,Angga,Devis,verified
+P047,terdakwaKode,BI047,putusan_1383_pid.sus_2026_pn_tng_20261024141845.pdf,1,Angga,Devis,verified
+P047,jenisNarkotika,Sabu,putusan_1383_pid.sus_2026_pn_tng_20261024141845.pdf,3,Angga,Devis,verified
+P047,beratBarangBuktiGram,1.3188,putusan_1383_pid.sus_2026_pn_tng_20261024141845.pdf,8,Angga,Devis,verified
+P047,pasalDakwaan,Pasal 114 ayat (1) jo Pasal 20 huruf c UU No. 1 Tahun 2023,putusan_1383_pid.sus_2026_pn_tng_20261024141845.pdf,2,Angga,Devis,verified
+P047,pasalTerbukti,Pasal 114 ayat (1) jo Pasal 20 huruf c UU No. 1 Tahun 2023,putusan_1383_pid.sus_2026_pn_tng_20261024141845.pdf,38,Angga,Devis,verified
+P047,tuntutanBulan,102,putusan_1383_pid.sus_2026_pn_tng_20261024141845.pdf,2,Angga,Devis,verified
+P047,vonisBulan,96,putusan_1383_pid.sus_2026_pn_tng_20261024141845.pdf,38,Angga,Devis,verified
+P047,dendaRupiah,1000000000,putusan_1383_pid.sus_2026_pn_tng_20261024141845.pdf,38,Angga,Devis,verified
+P047,barangBukti,"18 bungkus plastik klip berisi sabu (netto total 1,3188 gram); 1 unit HP Poco; 1 unit motor Yamaha Mio Soul",putusan_1383_pid.sus_2026_pn_tng_20261024141845.pdf,3,Angga,Devis,verified
+P047,keadaanMemberatkan,"Perbuatan meresahkan masyarakat; menghambat program pemerintah dalam pemberantasan peredaran gelap narkotika",putusan_1383_pid.sus_2026_pn_tng_20261024141845.pdf,38,Angga,Devis,verified
+P047,keadaanMeringankan,"Terdakwa mengakui perbuatannya; bersikap sopan selama di persidangan",putusan_1383_pid.sus_2026_pn_tng_20261024141845.pdf,38,Angga,Devis,verified
+P047,sourcePages,"1, 2, 3, 8, 38, 39",putusan_1383_pid.sus_2026_pn_tng_20261024141845.pdf,"1, 2, 3, 8, 38, 39",Angga,Devis,verified
+
+P048,nomorPerkara,1395/Pid.Sus/2026/PN.Tng,putusan_1395_pid.sus_2026_pn_tng_20261031202816.pdf,1,Angga,Devis,verified
+P048,pengadilan,Pengadilan Negeri Tangerang,putusan_1395_pid.sus_2026_pn_tng_20261031202816.pdf,1,Angga,Devis,verified
+P048,tanggalPutusan,2026-09-29,putusan_1395_pid.sus_2026_pn_tng_20261031202816.pdf,32,Angga,Devis,verified
+P048,terdakwaKode,MU048-MY048,putusan_1395_pid.sus_2026_pn_tng_20261031202816.pdf,1,Angga,Devis,verified
+P048,jenisNarkotika,Sabu,putusan_1395_pid.sus_2026_pn_tng_20261031202816.pdf,2,Angga,Devis,verified
+P048,beratBarangBuktiGram,9.5987,putusan_1395_pid.sus_2026_pn_tng_20261031202816.pdf,5,Angga,Devis,verified
+P048,pasalDakwaan,Pasal 114 Ayat (2) Jo Pasal 132 Ayat (1) UU No. 35 Tahun 2009,putusan_1395_pid.sus_2026_pn_tng_20261031202816.pdf,2,Angga,Devis,verified
+P048,pasalTerbukti,Pasal 114 Ayat (2) Jo Pasal 132 Ayat (1) UU No. 35 Tahun 2009,putusan_1395_pid.sus_2026_pn_tng_20261031202816.pdf,31,Angga,Devis,verified
+P048,tuntutanBulan,72,putusan_1395_pid.sus_2026_pn_tng_20261031202816.pdf,2,Angga,Devis,verified
+P048,vonisBulan,54,putusan_1395_pid.sus_2026_pn_tng_20261031202816.pdf,31,Angga,Devis,verified
+P048,dendaRupiah,1000000000,putusan_1395_pid.sus_2026_pn_tng_20261031202816.pdf,31,Angga,Devis,verified
+P048,barangBukti,"1 bungkus bekas rokok Harumanis berisi 2 bungkus plastik klip sabu (netto total 9,5987 gram); 2 unit HP Realme; 1 unit motor Honda Scoopy",putusan_1395_pid.sus_2026_pn_tng_20261031202816.pdf,2,Angga,Devis,verified
+P048,keadaanMemberatkan,"Perbuatan tidak mendukung program pemerintah; terdakwa sudah lebih dari satu kali melakukan tindak pidana",putusan_1395_pid.sus_2026_pn_tng_20261031202816.pdf,30,Angga,Devis,verified
+P048,keadaanMeringankan,"Para terdakwa belum pernah dihukum; berterus terang dan sopan; tulang punggung keluarga; menyesali perbuatan",putusan_1395_pid.sus_2026_pn_tng_20261031202816.pdf,31,Angga,Devis,verified
+P048,sourcePages,"1, 2, 5, 30, 31, 32",putusan_1395_pid.sus_2026_pn_tng_20261031202816.pdf,"1, 2, 5, 30, 31, 32",Angga,Devis,verified
+
+P049,nomorPerkara,1404/Pid.Sus/2026/PN Tng,putusan_1404_pid.sus_2026_pn_tng_20261031121545.pdf,1,Angga,Devis,verified
+P049,pengadilan,Pengadilan Negeri Tangerang,putusan_1404_pid.sus_2026_pn_tng_20261031121545.pdf,1,Angga,Devis,verified
+P049,tanggalPutusan,2026-09-29,putusan_1404_pid.sus_2026_pn_tng_20261031121545.pdf,18,Angga,Devis,verified
+P049,terdakwaKode,FR049,putusan_1404_pid.sus_2026_pn_tng_20261031121545.pdf,1,Angga,Devis,verified
+P049,jenisNarkotika,Ganja,putusan_1404_pid.sus_2026_pn_tng_20261031121545.pdf,5,Angga,Devis,verified
+P049,beratBarangBuktiGram,1.2180,putusan_1404_pid.sus_2026_pn_tng_20261031121545.pdf,5,Angga,Devis,verified
+P049,pasalDakwaan,Pasal 114 ayat (1) UU No. 35 Tahun 2009,putusan_1404_pid.sus_2026_pn_tng_20261031121545.pdf,2,Angga,Devis,verified
+P049,pasalTerbukti,Pasal 114 ayat (1) UU No. 35 Tahun 2009,putusan_1404_pid.sus_2026_pn_tng_20261031121545.pdf,16,Angga,Devis,verified
+P049,tuntutanBulan,44,putusan_1404_pid.sus_2026_pn_tng_20261031121545.pdf,2,Angga,Devis,verified
+P049,vonisBulan,36,putusan_1404_pid.sus_2026_pn_tng_20261031121545.pdf,17,Angga,Devis,verified
+P049,dendaRupiah,1000000000,putusan_1404_pid.sus_2026_pn_tng_20261031121545.pdf,17,Angga,Devis,verified
+P049,barangBukti,"1 bungkus plastik klip berisi 3 paket kertas coklat berisi ganja (netto total 1,2180 gram) dan 3 lembar kertas papir; 1 unit HP Vivo Y12S",putusan_1404_pid.sus_2026_pn_tng_20261031121545.pdf,3,Angga,Devis,verified
+P049,keadaanMemberatkan,Perbuatan Terdakwa sangat bertentangan dengan tekad; keinginan dan harapan masyarakat umum untuk menekan dan memberantas peredaran narkotika,putusan_1404_pid.sus_2026_pn_tng_20261031121545.pdf,16,Angga,Devis,verified
+P049,keadaanMeringankan,"Terdakwa berterus terang, merasa menyesal, berjanji tidak mengulangi; belum pernah dihukum",putusan_1404_pid.sus_2026_pn_tng_20261031121545.pdf,16,Angga,Devis,verified
+P049,sourcePages,"1, 2, 3, 5, 16, 17, 18",putusan_1404_pid.sus_2026_pn_tng_20261031121545.pdf,"1, 2, 3, 5, 16, 17, 18",Angga,Devis,verified
+
+P050,nomorPerkara,1405/Pid.Sus/2026/PN Tng,putusan_1405_pid.sus_2026_pn_tng_20261031202825.pdf,1,Angga,Devis,verified
+P050,pengadilan,Pengadilan Negeri Tangerang,putusan_1405_pid.sus_2026_pn_tng_20261031202825.pdf,1,Angga,Devis,verified
+P050,tanggalPutusan,2026-09-29,putusan_1405_pid.sus_2026_pn_tng_20261031202825.pdf,19,Angga,Devis,verified
+P050,terdakwaKode,TC050,putusan_1405_pid.sus_2026_pn_tng_20261031202825.pdf,1,Angga,Devis,verified
+P050,jenisNarkotika,Ganja,putusan_1405_pid.sus_2026_pn_tng_20261031202825.pdf,3,Angga,Devis,verified
+P050,beratBarangBuktiGram,9.0560,putusan_1405_pid.sus_2026_pn_tng_20261031202825.pdf,3,Angga,Devis,verified
+P050,pasalDakwaan,Pasal 114 ayat (1) UU No. 35 Tahun 2009,putusan_1405_pid.sus_2026_pn_tng_20261031202825.pdf,2,Angga,Devis,verified
+P050,pasalTerbukti,Pasal 114 ayat (1) UU No. 35 Tahun 2009,putusan_1405_pid.sus_2026_pn_tng_20261031202825.pdf,18,Angga,Devis,verified
+P050,tuntutanBulan,54,putusan_1405_pid.sus_2026_pn_tng_20261031202825.pdf,2,Angga,Devis,verified
+P050,vonisBulan,48,putusan_1405_pid.sus_2026_pn_tng_20261031202825.pdf,18,Angga,Devis,verified
+P050,dendaRupiah,1000000000,putusan_1405_pid.sus_2026_pn_tng_20261031202825.pdf,18,Angga,Devis,verified
+P050,barangBukti,"1 bungkus bekas rokok Fantastic Mild berisi 1 bungkus plastik klip ganja (brutto 10,40 gram, netto akhir 9,0560 gram); 1 unit HP Samsung A24",putusan_1405_pid.sus_2026_pn_tng_20261031202825.pdf,3,Angga,Devis,verified
+P050,keadaanMemberatkan,Perbuatan Terdakwa sangat bertentangan dengan tekad; keinginan dan harapan masyarakat umum untuk menekan dan memberantas peredaran narkotika,putusan_1405_pid.sus_2026_pn_tng_20261031202825.pdf,17,Angga,Devis,verified
+P050,keadaanMeringankan,"Terdakwa berterus terang, merasa menyesal, berjanji tidak mengulangi; belum pernah dihukum",putusan_1405_pid.sus_2026_pn_tng_20261031202825.pdf,17,Angga,Devis,verified
+P050,sourcePages,"1, 2, 3, 17, 18, 19",putusan_1405_pid.sus_2026_pn_tng_20261031202825.pdf,"1, 2, 3, 17, 18, 19",Angga,Devis,verified
+
 
