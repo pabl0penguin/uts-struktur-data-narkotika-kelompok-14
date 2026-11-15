@@ -80,7 +80,7 @@ src/main/java/
 3. **Clone repository.**
 
    ```bash
-   git clone <Link Repository>
+   git clone https://github.com/pabl0penguin/uts-struktur-data-narkotika-kelompok-14.git
    ```
 
    - Ganti `<username>` dan `<nama-repository>` dengan alamat repository kelompok.
