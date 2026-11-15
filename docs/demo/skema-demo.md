@@ -19,8 +19,6 @@ Dokumen ini berisi urutan pengujian aplikasi saat presentasi UTS. Setiap skenari
 
 **Screenshot bukti:** `img/01-impor-csv.png`
 
-![Skenario 1](img/01-impor-csv.png)
-
 ---
 
 ## Skenario 2: Pencarian Berdasarkan Case ID (Linear Search)
@@ -33,8 +31,6 @@ Dokumen ini berisi urutan pengujian aplikasi saat presentasi UTS. Setiap skenari
 - Jumlah langkah sama dengan posisi data (P007 adalah data ke-7), sesuai cara kerja Linear Search yang memeriksa data satu per satu dari awal.
 
 **Screenshot bukti:** `img/02-cari-case-id.png`
-
-![Skenario 2](img/02-cari-case-id.png)
 
 ---
 
@@ -49,8 +45,6 @@ Dokumen ini berisi urutan pengujian aplikasi saat presentasi UTS. Setiap skenari
 
 **Screenshot bukti:** `img/03-cari-nomor-perkara.png`
 
-![Skenario 3](img/03-cari-nomor-perkara.png)
-
 ---
 
 ## Skenario 4: Filter Berdasarkan Jenis Narkotika
@@ -62,8 +56,6 @@ Dokumen ini berisi urutan pengujian aplikasi saat presentasi UTS. Setiap skenari
 - Tabel hanya menampilkan P010, P030, P049, dan P050.
 - P010 ikut muncul karena jenisnya tertulis "Ganja (Cannabis)", yang membuktikan filter mencocokkan sebagian teks.
   **Screenshot bukti:** `img/04-filter-jenis-narkotika.png`
-
-![Skenario 4](img/04-filter-jenis-narkotika.png)
 
 ---
 
@@ -77,8 +69,6 @@ Dokumen ini berisi urutan pengujian aplikasi saat presentasi UTS. Setiap skenari
 
 **Screenshot bukti:** `img/05-filter-berat.png`
 
-![Skenario 5](img/05-filter-berat.png)
-
 ---
 
 ## Skenario 6: Filter Berdasarkan Pasal Terbukti
@@ -91,8 +81,6 @@ Dokumen ini berisi urutan pengujian aplikasi saat presentasi UTS. Setiap skenari
 
 **Screenshot bukti:** `img/06-filter-pasal-terbukti.png`
 
-![Skenario 6](img/06-filter-pasal-terbukti.png)
-
 ---
 
 ## Skenario 7: Filter Berdasarkan Vonis
@@ -104,8 +92,6 @@ Dokumen ini berisi urutan pengujian aplikasi saat presentasi UTS. Setiap skenari
 - Tabel menampilkan P008, P024, P029, P030, P031, P038, P043, dan P050. Semuanya berkolom Vonis 48 bulan.
 
 **Screenshot bukti:** `img/07-filter-vonis.png`
-
-![Skenario 7](img/07-filter-vonis.png)
 
 ---
 
@@ -121,8 +107,6 @@ Dokumen ini berisi urutan pengujian aplikasi saat presentasi UTS. Setiap skenari
 
 **Screenshot bukti:** `img/08-urutan-vonis.png`
 
-![Skenario 8](img/08-urutan-vonis.png)
-
 ---
 
 ## Skenario 9: Ekspor Data ke CSV
@@ -135,8 +119,6 @@ Dokumen ini berisi urutan pengujian aplikasi saat presentasi UTS. Setiap skenari
 
 **Screenshot bukti:** `img/09-ekspor-csv.png`
 
-![Skenario 9](img/09-ekspor-csv.png)
-
 ---
 
 ## Skenario 10: Riwayat Audit
@@ -146,8 +128,6 @@ Dokumen ini berisi urutan pengujian aplikasi saat presentasi UTS. Setiap skenari
 **Yang diharapkan:** Muncul dialog "Riwayat Audit" berisi semua aktivitas sebelumnya, urut dari yang terlama, masing-masing dengan timestamp:
 
 **Screenshot bukti:** `img/10-riwayat-audit.png`
-
-![Skenario 10](img/10-riwayat-audit.png)
 
 ---
 
@@ -161,8 +141,6 @@ Dokumen ini berisi urutan pengujian aplikasi saat presentasi UTS. Setiap skenari
 
 **Screenshot bukti:** `img/11-tambah-data.png`
 
-![Skenario 11](img/11-tambah-data.png)
-
 ---
 
 ## Skenario 12: Menghapus Data
@@ -173,6 +151,3 @@ Dokumen ini berisi urutan pengujian aplikasi saat presentasi UTS. Setiap skenari
 **Yang diharapkan:** Baris P050 hilang, dan baris P050 hilang pada tabel.
 
 **Screenshot bukti:** `img/12-hapus-data.png, 12-bukti-data-hapus`
-
-![Skenario 12](img/12-tambah-data.png)
-![Skenario 12](img/12-bukti-data-hapus)
